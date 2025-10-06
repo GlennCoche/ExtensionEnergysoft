@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Form PV Ultimate",
+  "version": "3.2.6",
+  "description": "Assistant intelligent pour interventions Energysoft",
+  
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  
+  "host_permissions": [
+    "https://energysoft.app/*"
+  ],
+  
+  "content_scripts": [
+    {
+      "matches": ["https://energysoft.app/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://energysoft.app/v2/*"],
+      "js": ["monitoring.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Auto Form PV Ultimate"
+  },
+  
+  "options_page": "options.html",
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "web_accessible_resources": [
+    {
+      "resources": ["config_interventions_export.json", "default-settings.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

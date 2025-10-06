@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings - Auto Form PV Ultimate</title>
+  <style>
+    /* ===== DESIGN APPLE MINIMALISTE ===== */
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --apple-blue: #007AFF;
+      --apple-gray: #8E8E93;
+      --apple-light-gray: #F2F2F7;
+      --apple-dark: #1D1D1F;
+      --apple-white: #FFFFFF;
+      --apple-border: #D1D1D6;
+      --apple-shadow: rgba(0, 0, 0, 0.08);
+      --apple-hover: rgba(0, 122, 255, 0.08);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+      background: var(--apple-light-gray);
+      min-height: 100vh;
+      padding: 0;
+      color: var(--apple-dark);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: var(--apple-white);
+      min-height: 100vh;
+    }
+
+    .header {
+      background: var(--apple-white);
+      padding: 40px 60px 20px;
+      border-bottom: 1px solid var(--apple-border);
+      backdrop-filter: blur(20px);
+    }
+
+    .header h1 {
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      color: var(--apple-dark);
+      margin-bottom: 8px;
+    }
+
+    .header p {
+      font-size: 17px;
+      font-weight: 400;
+      color: var(--apple-gray);
+      letter-spacing: -0.2px;
+    }
+
+    .tabs {
+      display: flex;
+      background: var(--apple-white);
+      padding: 0 60px;
+      gap: 0;
+      border-bottom: 0.5px solid var(--apple-border);
+    }
+
+    .tab {
+      padding: 16px 0;
+      margin-right: 32px;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 400;
+      color: var(--apple-gray);
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      letter-spacing: -0.2px;
+    }
+
+    .tab.active {
+      color: var(--apple-dark);
+      font-weight: 500;
+      border-bottom-color: var(--apple-blue);
+    }
+
+    .tab:hover {
+      color: var(--apple-dark);
+    }
+
+    .tab-content {
+      display: none;
+      padding: 40px 60px;
+    }
+
+    .tab-content.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .stat-card {
+      background: var(--apple-light-gray);
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid var(--apple-border);
+      transition: all 0.2s ease;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px var(--apple-shadow);
+    }
+
+    .stat-card h3 {
+      font-size: 40px;
+      font-weight: 600;
+      letter-spacing: -1px;
+      color: var(--apple-dark);
+      margin-bottom: 4px;
+    }
+
+    .stat-card p {
+      font-size: 15px;
+      font-weight: 400;
+      color: var(--apple-gray);
+      letter-spacing: -0.2px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      letter-spacing: -0.2px;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+    }
+
+    .btn-primary {
+      background: var(--apple-blue);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #0051D5;
+      transform: scale(1.02);
+    }
+
+    .btn-primary:active {
+      transform: scale(0.98);
+    }
+
+    .btn-success {
+      background: #34C759;
+      color: white;
+    }
+
+    .btn-success:hover {
+      background: #2DB04A;
+      transform: scale(1.02);
+    }
+
+    .btn-warning {
+      background: #FF9500;
+      color: white;
+    }
+
+    .btn-warning:hover {
+      background: #E68600;
+      transform: scale(1.02);
+    }
+
+    .btn-danger {
+      background: #FF3B30;
+      color: white;
+    }
+
+    .btn-danger:hover {
+      background: #E6342A;
+      transform: scale(1.02);
+    }
+
+    .btn-secondary {
+      background: var(--apple-light-gray);
+      color: var(--apple-dark);
+      border: 1px solid var(--apple-border);
+    }
+
+    .btn-secondary:hover {
+      background: #E5E5EA;
+      transform: scale(1.02);
+    }
+
+    /* Formulaires */
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--apple-dark);
+      letter-spacing: -0.2px;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid var(--apple-border);
+      border-radius: 10px;
+      font-size: 15px;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+      transition: all 0.2s ease;
+      background: var(--apple-white);
+      color: var(--apple-dark);
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--apple-blue);
+      box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.1);
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .form-row-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px;
+    }
+
+    /* Tableaux */
+    .table-container {
+      background: var(--apple-white);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--apple-border);
+      margin-top: 24px;
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .table th {
+      background: var(--apple-light-gray);
+      color: var(--apple-dark);
+      padding: 14px 16px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--apple-border);
+    }
+
+    .table td {
+      padding: 16px;
+      border-bottom: 1px solid var(--apple-border);
+      vertical-align: middle;
+      font-size: 15px;
+      color: var(--apple-dark);
+    }
+
+    .table tr:hover {
+      background: var(--apple-hover);
+    }
+
+    .table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .btn-sm {
+      padding: 6px 12px;
+      font-size: 13px;
+      border-radius: 8px;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 6px;
+    }
+
+    /* Barre de recherche */
+    .search-box {
+      margin-bottom: 24px;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid var(--apple-border);
+      border-radius: 10px;
+      font-size: 15px;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+      transition: all 0.2s ease;
+      background: var(--apple-light-gray);
+    }
+
+    .search-box input:focus {
+      outline: none;
+      border-color: var(--apple-blue);
+      box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.1);
+      background: var(--apple-white);
+    }
+
+    .search-box input::placeholder {
+      color: var(--apple-gray);
+    }
+
+    /* Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+      animation: fadeIn 0.2s ease;
+    }
+
+    .modal-content {
+      background: var(--apple-white);
+      margin: 5% auto;
+      padding: 32px;
+      border-radius: 16px;
+      width: 90%;
+      max-width: 600px;
+      max-height: 80vh;
+      overflow-y: auto;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      animation: slideUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--apple-border);
+    }
+
+    .modal-header h2 {
+      color: var(--apple-dark);
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+    }
+
+    .close {
+      font-size: 24px;
+      font-weight: 400;
+      cursor: pointer;
+      color: var(--apple-gray);
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: all 0.2s ease;
+    }
+
+    .close:hover {
+      background: var(--apple-light-gray);
+      color: var(--apple-dark);
+    }
+
+    /* Alertes */
+    .alert {
+      padding: 16px 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+
+    .alert-success {
+      background: #D1F4E0;
+      color: #0A6E31;
+      border-color: #34C759;
+    }
+
+    .alert-danger {
+      background: #FFE5E5;
+      color: #C41E3A;
+      border-color: #FF3B30;
+    }
+
+    .alert-info {
+      background: #E5F3FF;
+      color: #0051D5;
+      border-color: #007AFF;
+    }
+
+    /* Utilitaires */
+    .hidden {
+      display: none !important;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .text-muted {
+      color: var(--apple-gray);
+    }
+
+    /* Badges */
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 6px;
+      letter-spacing: 0.3px;
+    }
+
+    .badge-success {
+      background: #34C759;
+      color: white;
+    }
+
+    .badge-warning {
+      background: #FF9500;
+      color: white;
+    }
+
+    .badge-danger {
+      background: #FF3B30;
+      color: white;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .header {
+        padding: 24px 24px 16px;
+      }
+
+      .header h1 {
+        font-size: 24px;
+      }
+
+      .tabs {
+        padding: 0 24px;
+      }
+
+      .tab {
+        font-size: 14px;
+        margin-right: 20px;
+      }
+
+      .tab-content {
+        padding: 24px;
+      }
+
+      .form-row,
+      .form-row-3 {
+        grid-template-columns: 1fr;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .table-container {
+        overflow-x: auto;
+      }
+
+      .stat-card h3 {
+        font-size: 32px;
+      }
+    }
+
+    /* Scrollbar personnalisée (style macOS) */
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--apple-border);
+      border-radius: 10px;
+      border: 2px solid var(--apple-white);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--apple-gray);
+    }
+
+    /* Sélection de texte */
+    ::selection {
+      background: var(--apple-blue);
+      color: white;
+    }
+
+    ::-moz-selection {
+      background: var(--apple-blue);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Auto Form PV Ultimate</h1>
+      <p>Gestion complète des interventions et alarmes · v3.2.6</p>
+    </div>
+
+    <div class="tabs">
+      <button class="tab active" id="tabInterventions" data-tab="interventions">📋 Interventions</button>
+      <button class="tab" id="tabAlarms" data-tab="alarms">🚨 Alarmes</button>
+      <button class="tab" id="tabSettings" data-tab="settings">⚙️ Paramètres</button>
+    </div>
+
+    <!-- ONGLET INTERVENTIONS -->
+    <div id="interventions" class="tab-content active">
+      <div class="stats">
+        <div class="stat-card">
+          <h3 id="totalInterventions">0</h3>
+          <p>Interventions</p>
+        </div>
+        <div class="stat-card">
+          <h3 id="totalCodes">0</h3>
+          <p>Codes Uniques</p>
+        </div>
+        <div class="stat-card">
+          <h3 id="totalAlarmes">0</h3>
+          <p>Alarmes Actives</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="btn btn-primary" id="btnShowAddModal">
+          ➕ Ajouter Intervention
+        </button>
+        <button class="btn btn-success" id="btnImportJSON">
+          📥 Importer JSON
+        </button>
+        <button class="btn btn-warning" id="btnExportJSON">
+          📤 Exporter JSON
+        </button>
+        <button class="btn btn-secondary" id="btnReloadData">
+          🔄 Recharger
+        </button>
+        
+        <button class="btn btn-primary" id="btnForceReload">
+          📥 Forcer Import
+        </button>
+      </div>
+
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="🔍 Rechercher une intervention...">
+      </div>
+
+      <div class="table-container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Alarme</th>
+              <th>Titre</th>
+              <th>Catégorie</th>
+              <th>Sévérité</th>
+              <th>Échéance</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="interventionsTableBody">
+            <!-- Rempli dynamiquement -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ONGLET ALARMES -->
+    <div id="alarms" class="tab-content">
+      <div class="stats">
+        <div class="stat-card">
+          <h3 id="totalAlarmsActive">0</h3>
+          <p>Alarmes Actives</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card">
+            <h3 id="totalAlarmsResolved">0</h3>
+            <p>Alarmes Résolues</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="btn btn-primary" id="btnRefreshAlarms">
+          🔄 Actualiser Alarmes
+        </button>
+        <button class="btn btn-success" id="btnExportAlarms">
+          📤 Exporter Alarmes
+        </button>
+        <button class="btn btn-warning" id="btnClearAlarms">
+          🗑️ Vider Cache
+        </button>
+      </div>
+
+      <div class="table-container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Site</th>
+              <th>Type</th>
+              <th>Matériel</th>
+              <th>Date</th>
+              <th>Statut</th>
+            </tr>
+          </thead>
+          <tbody id="alarmsTableBody">
+            <!-- Rempli dynamiquement -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ONGLET PARAMÈTRES -->
+    <div id="settings" class="tab-content">
+      <div class="form-group">
+        <h3>Configuration Générale</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="debugMode">Mode Debug</label>
+            <select id="debugMode" class="form-control">
+              <option value="true">Activé</option>
+              <option value="false">Désactivé</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="debounceDelay">Délai Debouncing (ms)</label>
+            <input type="number" id="debounceDelay" class="form-control" value="500" min="100" max="2000">
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <h3>Champs de Remplissage</h3>
+        <div class="form-row-3">
+          <div class="form-group">
+            <label>
+              <input type="checkbox" id="fillTitre" checked> Titre
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" id="fillCategorie" checked> Catégorie
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" id="fillDateEcheance" checked> Date d'échéance
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" id="fillDescription" checked> Description
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" id="fillCommentaire" checked> Commentaire
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" id="enrichCommentaire" checked> Enrichir Commentaire
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="btn btn-primary" id="btnSaveSettings">
+          💾 Sauvegarder Paramètres
+        </button>
+        <button class="btn btn-secondary" id="btnResetSettings">
+          🔄 Réinitialiser
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL AJOUT/ÉDITION INTERVENTION -->
+  <div id="interventionModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="modalTitle">Ajouter Intervention</h2>
+        <span class="close" id="btnCloseModal">&times;</span>
+      </div>
+      
+      <form id="interventionForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="modalAlarme">Alarme *</label>
+            <input type="text" id="modalAlarme" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="modalTitre">Titre *</label>
+            <input type="text" id="modalTitre" class="form-control" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="modalCategorie">Catégorie</label>
+            <select id="modalCategorie" class="form-control">
+              <option value="Maintenance Curative">Maintenance Curative</option>
+              <option value="Maintenance Préventive">Maintenance Préventive</option>
+              <option value="Autre">Autre</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="modalSeverite">Sévérité</label>
+            <select id="modalSeverite" class="form-control">
+              <option value="Haut">Haut</option>
+              <option value="Moyen">Moyen</option>
+              <option value="Bas">Bas</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="modalEcheance">Échéance</label>
+            <input type="text" id="modalEcheance" class="form-control" placeholder="J+5">
+          </div>
+          <div class="form-group">
+            <label for="modalPriorite">Priorité</label>
+            <select id="modalPriorite" class="form-control">
+              <option value="Normale">Normale</option>
+              <option value="Haute">Haute</option>
+              <option value="Critique">Critique</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="modalDescription1">Description 1</label>
+          <textarea id="modalDescription1" class="form-control" rows="3"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="modalDescription2">Description 2</label>
+          <textarea id="modalDescription2" class="form-control" rows="3"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="modalDescription3">Description 3 (Commentaire)</label>
+          <textarea id="modalDescription3" class="form-control" rows="3"></textarea>
+        </div>
+
+        <div class="actions">
+          <button type="submit" class="btn btn-primary">💾 Sauvegarder</button>
+          <button type="button" class="btn btn-secondary" id="btnCancelModal">❌ Annuler</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

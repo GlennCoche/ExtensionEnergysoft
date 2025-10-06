@@ -1,0 +1,12 @@
+{
+  "extensionSettings": {
+    "debugMode": true,
+    "debounceDelay": 500,
+    "fillTitre": true,
+    "fillCategorie": true,
+    "fillDateEcheance": true,
+    "fillDescription": true,
+    "fillCommentaire": true,
+    "enrichCommentaire": true
+  }
+}

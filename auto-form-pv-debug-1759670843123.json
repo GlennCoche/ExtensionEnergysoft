@@ -1,0 +1,1353 @@
+{
+  "timestamp": "2025-10-05T13:27:23.107Z",
+  "version": "3.2.0",
+  "url": "https://energysoft.app/v2/#/ticket?monitored=1&profile=7&tab=14&date=2025-10-05%2015:26:32&list=.GwajVfnqej&id=64204114",
+  "interventionsCount": 73,
+  "cacheSize": 1,
+  "pageInfo": {
+    "title": "Energysoft - Alarme N°A-2897134",
+    "url": "https://energysoft.app/v2/#/ticket?monitored=1&profile=7&tab=14&date=2025-10-05%2015:26:32&list=.GwajVfnqej&id=64204114",
+    "readyState": "complete"
+  },
+  "fields": {
+    "site": {
+      "found": true,
+      "value": "AP5424 | MARCHAND C",
+      "id": "gwt-uid-36",
+      "name": ""
+    },
+    "titre": {
+      "found": true,
+      "value": "REPAR_ONDL",
+      "id": "gwt-uid-2987",
+      "type": "INPUT"
+    },
+    "ticketParent": {
+      "found": true,
+      "number": "A-2897134",
+      "name": "GOODWE ERROR [262144]",
+      "fullText": "A-2897134 - GOODWE ERROR [262144]"
+    },
+    "categorie": [
+      {
+        "id": "",
+        "name": "",
+        "optionsCount": 4,
+        "firstOptions": [
+          "Critique",
+          "Attention",
+          "Normale",
+          "Faible"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "optionsCount": 0,
+        "firstOptions": []
+      },
+      {
+        "id": "",
+        "name": "",
+        "optionsCount": 31,
+        "firstOptions": [
+          "Anémomètre",
+          "Autre",
+          "Batterie",
+          "Boite de jonction",
+          "Branche"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "optionsCount": 2,
+        "firstOptions": [
+          "Brouillon",
+          "Validé"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "optionsCount": 2,
+        "firstOptions": [
+          "Facture",
+          "Avoir"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "optionsCount": 4,
+        "firstOptions": [
+          "Critique",
+          "Attention",
+          "Normale",
+          "Faible"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "optionsCount": 7,
+        "firstOptions": [
+          "Priorité basse",
+          "Présence de données",
+          "Attente diag",
+          "Priorité moyenne",
+          "Echec de diag"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "optionsCount": 31,
+        "firstOptions": [
+          "Anémomètre",
+          "Autre",
+          "Batterie",
+          "Boite de jonction",
+          "Branche"
+        ]
+      },
+      {
+        "id": "gwt-uid-33",
+        "name": "",
+        "optionsCount": 3,
+        "firstOptions": [
+          "-",
+          "Ouvert",
+          "Fermé"
+        ]
+      },
+      {
+        "id": "gwt-uid-34",
+        "name": "",
+        "optionsCount": 258,
+        "firstOptions": [
+          "-",
+          "Apex Antilles",
+          "Apex Réunion",
+          "Apex_7_U",
+          "Autoconso_U"
+        ]
+      },
+      {
+        "id": "gwt-uid-35",
+        "name": "",
+        "optionsCount": 5,
+        "firstOptions": [
+          "-",
+          "Critique",
+          "Attention",
+          "Normale",
+          "Faible"
+        ]
+      },
+      {
+        "id": "gwt-uid-39",
+        "name": "",
+        "optionsCount": 8,
+        "firstOptions": [
+          "-",
+          "Priorité basse",
+          "Présence de données",
+          "Attente diag",
+          "Priorité moyenne"
+        ]
+      },
+      {
+        "id": "gwt-uid-2989",
+        "name": "",
+        "optionsCount": 3,
+        "firstOptions": [
+          "Sogetrel",
+          "SEE MARTINIQUE",
+          "SEE REUNION"
+        ]
+      },
+      {
+        "id": "gwt-uid-2991",
+        "name": "",
+        "optionsCount": 258,
+        "firstOptions": [
+          "-",
+          "Apex Antilles",
+          "Apex Réunion",
+          "Apex_7_U",
+          "Autoconso_U"
+        ]
+      },
+      {
+        "id": "gwt-uid-2992",
+        "name": "",
+        "optionsCount": 10,
+        "firstOptions": [
+          "-",
+          "Nouveau",
+          "Assigné",
+          "Accepté",
+          "Refusé"
+        ]
+      },
+      {
+        "id": "gwt-uid-2993",
+        "name": "",
+        "optionsCount": 5,
+        "firstOptions": [
+          "-",
+          "Urgent",
+          "Haut",
+          "Normal",
+          "Bas"
+        ]
+      },
+      {
+        "id": "gwt-uid-2995",
+        "name": "",
+        "optionsCount": 11,
+        "firstOptions": [
+          "-",
+          "Autre",
+          "Construction",
+          "Contrôle Règlementaire",
+          "Maintenance Curative"
+        ]
+      },
+      {
+        "id": "gwt-uid-3006",
+        "name": "",
+        "optionsCount": 56,
+        "firstOptions": [
+          "-",
+          "a.henry@apexenergies.fr [Aurélien HENRY]",
+          "a.jeanjean@apexenergies.fr [Antoine Jeanjean]",
+          "a.serieys@apexenergies.fr [Adrien Serieys]",
+          "a.valette@apexenergies.fr [Alexis Valette]"
+        ]
+      },
+      {
+        "id": "gwt-uid-3062",
+        "name": "",
+        "optionsCount": 35,
+        "firstOptions": [
+          "-",
+          "Autre",
+          "Colmatage fuite en toîture",
+          "Contrôle des cartes filtres Fronius",
+          "Diagnostic du site"
+        ]
+      },
+      {
+        "id": "gwt-uid-3064",
+        "name": "",
+        "optionsCount": 19,
+        "firstOptions": [
+          "-",
+          "Alexis test HTA",
+          "Analyse toiture",
+          "Commissioning SOL",
+          "Contrôle HSE - Exploitation"
+        ]
+      },
+      {
+        "id": "gwt-uid-3069",
+        "name": "",
+        "optionsCount": 533,
+        "firstOptions": [
+          "-",
+          "S415053 | Couvercle Ond",
+          "419001 | ABB Trio 20",
+          "415120 | Vent. FRONIUS  43",
+          "415123 | Fusible 41"
+        ]
+      },
+      {
+        "id": "gwt-uid-3070",
+        "name": "",
+        "optionsCount": 17,
+        "firstOptions": [
+          "-",
+          "Dépôt Central Développement",
+          "Dépôt Central Montpellier",
+          "Dépôt Igener",
+          "Guadeloupe Ag Développement"
+        ]
+      }
+    ],
+    "dateEcheance": {
+      "found": true,
+      "labelText": "Date d'échéance",
+      "forId": "gwt-uid-2997"
+    },
+    "textareas": [
+      {
+        "index": 0,
+        "id": "gwt-uid-42",
+        "name": "",
+        "rows": 5,
+        "value": "Onduleur en défaut. Alarme code erreur [262144] Isolation Failure(or LLC Bus High for HF)"
+      },
+      {
+        "index": 1,
+        "id": "",
+        "name": "",
+        "rows": 6,
+        "value": "\n\n─── Informations alarme ───\nTicket: A-2897134\nSite: AP5424 | MARCHAND C"
+      },
+      {
+        "index": 2,
+        "id": "gwt-uid-2998",
+        "name": "",
+        "rows": 2,
+        "value": "Maintenance liée à l'alarme A-2897134 : GOODWE ERROR [262144]"
+      },
+      {
+        "index": 3,
+        "id": "gwt-uid-3000",
+        "name": "",
+        "rows": 2,
+        "value": ""
+      },
+      {
+        "index": 4,
+        "id": "",
+        "name": "",
+        "rows": 6,
+        "value": ""
+      }
+    ]
+  },
+  "storageAlarms": [
+    {
+      "date": "05/10/2025 15:26",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]",
+      "id": "A-289713705",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832744,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 09:26",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289713605",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832758,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:26",
+      "equipment": "Onduleur OND21-SG110CX-2SUNGROW ERROR [553]",
+      "id": "A-289713505",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832771,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:23",
+      "equipment": "Onduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289712805",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832785,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:23",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289712505",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832798,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:21",
+      "equipment": "Onduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289711705",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832811,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 09:21",
+      "equipment": "Onduleur 5Production vs. heures du soleil au fil de l'eau",
+      "id": "A-289711605",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832825,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 09:20",
+      "equipment": "Onduleur 2130408853Production vs. heures du soleil au fil de l'eau",
+      "id": "A-289711305",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832838,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:18",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289710105",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832851,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:18",
+      "equipment": "Onduleur m50-4Défaut de transmission d'un équipement (délai)",
+      "id": "A-289710205",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832864,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:18",
+      "equipment": "Onduleur m50-1Défaut de transmission d'un équipement (délai)",
+      "id": "A-289710305",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832877,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:18",
+      "equipment": "Onduleur m50-3Défaut de transmission d'un équipement (délai)",
+      "id": "A-289710405",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832890,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:18",
+      "equipment": "Onduleur m50-5Défaut de transmission d'un équipement (délai)",
+      "id": "A-289710505",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832903,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:18",
+      "equipment": "Onduleur m50-2Défaut de transmission d'un équipement (délai)",
+      "id": "A-289710605",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832916,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:17",
+      "equipment": "Onduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289709805",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832930,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:16",
+      "equipment": "Onduleur OND11-SG110CX-3SUNGROW ERROR [14]",
+      "id": "A-289709205",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832943,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 09:15",
+      "equipment": "Onduleur 5Défaut onduleur Sunspec [GROUND_FAULT]",
+      "id": "A-289709005",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832956,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:12",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289707605",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832970,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:12",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289707705",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832983,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:10",
+      "equipment": "Onduleur OND12-SG110CX-2SUNGROW ERROR [14]",
+      "id": "A-289707005",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670832996,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:08",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289706105",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833010,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:06",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289705105",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833023,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:06",
+      "equipment": "Onduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289704805",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833037,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:03",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289703805",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833050,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:03",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289703905",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833064,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 09:00",
+      "equipment": "onduleur Sunspec [HW_TEST_FAILURE]",
+      "id": "A-289703005",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833077,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:58",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289702405",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833091,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:57",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289702105",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833104,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:57",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289702205",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833118,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:53",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289700305",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833131,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:48",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289698005",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833145,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:48",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289698105",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833158,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:48",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289698205",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833171,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:48",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289698305",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833184,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:48",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289698405",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833198,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:48",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289698505",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833211,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:43",
+      "equipment": "Onduleur OND13-SG50CX-1SUNGROW ERROR [14]",
+      "id": "A-289696105",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833224,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:43",
+      "equipment": "Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289696005",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833237,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:43",
+      "equipment": "Onduleur Ond2Défaut de transmission d'un équipement (délai)",
+      "id": "A-289695705",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833251,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:43",
+      "equipment": "Onduleur Ond1Défaut de transmission d'un équipement (délai)",
+      "id": "A-289695805",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833264,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:43",
+      "equipment": "Onduleur Ond3Défaut de transmission d'un équipement (délai)",
+      "id": "A-289695905",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833277,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:41",
+      "equipment": "Onduleur OND3-SG110CX-1SUNGROW ERROR [561]",
+      "id": "A-289694905",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833292,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:40",
+      "equipment": "Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289694505",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833308,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:36",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289692305",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833322,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:22",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289687105",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833336,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:21",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289686405",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833349,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:20",
+      "equipment": "Onduleur 2GOODWE ERROR [262144]A-289713605/10/2025 09:2605/10/2025 09:25AD022 - MONTPELATMONTP3Webdyn hors tensionA-289713505/10/2025 15:2605/10/2025 15:25AP3032 - FAGETE 2Onduleur OND21-SG110CX-2SUNGROW ERROR [553]A-289712805/10/2025 15:2305/10/2025 17:23EA948 - SOULETOnduleur serial2_4SUNSPEC ERROR [AC_OVER_VOLT]A-289712505/10/2025 15:2305/10/2025 13:19AP5835 - VOLTERRECT01_LDéfaut de transmission du boîtier (délai)A-289711705/10/2025 15:2105/10/2025 15:20AP843 - ESCALETTEOnduleur OND1-M88SUNSPEC ERROR [AC_OVER_VOLT]A-289711605/10/2025 09:2105/10/2025 08:00GRO085C - Espace EsthephanoOnduleur 5Production vs. heures du soleil au fil de l'eauA-289711305/10/2025 09:2005/10/2025 08:00SEG010C-1 - SEGUR 1Onduleur 2130408853Production vs. heures du soleil au fil de l'eauA-289710105/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFIrDéfaut de transmission d'un équipement (délai)A-289710205/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-4Défaut de transmission d'un équipement (délai)A-289710305/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-1Défaut de transmission d'un équipement (délai)A-289710405/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-3Défaut de transmission d'un équipement (délai)A-289710505/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-5Défaut de transmission d'un équipement (délai)A-289710605/10/2025 15:1804/10/2025 23:15AP3006 - SCEA COURTEBOTTE NEUFOnduleur m50-2Défaut de transmission d'un équipement (délai)A-289709805/10/2025 15:1705/10/2025 15:16AS1602 - ALBIACOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289709205/10/2025 15:1605/10/2025 15:15AP2312 - BELINGARDOnduleur OND11-SG110CX-3SUNGROW ERROR [14]A-289709005/10/2025 09:1505/10/2025 08:40GRO085C - Espace EsthephanoOnduleur 5Défaut onduleur Sunspec [GROUND_FAULT]A-289707605/10/2025 15:1205/10/2025 13:53AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00020000]A-289707705/10/2025 15:1205/10/2025 13:54AUT003 (CPE) - Campus Groupe SebSUNSPEC ERROR [00000000]A-289707005/10/2025 15:1005/10/2025 15:09AP2312 - BELINGARDOnduleur OND12-SG110CX-2SUNGROW ERROR [14]A-289706105/10/2025 15:0804/10/2025 13:00AP5406 - MAREAU AMAREAUAPas de données dataloggerA-289705105/10/2025 15:0605/10/2025 15:05AUT107 (CPE) - SCA ValprimVALPRIMWebdyn hors tensionA-289704805/10/2025 15:0605/10/2025 15:04AP783 - RAPEAUOnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]A-289703805/10/2025 15:0305/10/2025 09:41AP-AUT003 (CPE) - SCEA COURTEBOTTECOURTEBOTTE1Pas de données dataloggerA-289703905/10/2025 15:0304/10/2025 16:27AP5209 - ROSSETIrrDéfaut de transmission d'un équipement (délai)A-289703005/10/2025 09:0005/10/2025 09:00MIL008C - MILIA AngeOnd2Défaut onduleur Sunspec [HW_TEST_FAILURE]A-289702405/10/2025 14:5804/10/2025 16:16AP2039 - FOUILLADE B1FOUIL1Pas de données dataloggerA-289702105/10/2025 14:5705/10/2025 14:50AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2034]A-289702205/10/2025 14:5705/10/2025 14:55AUT064 - LECLERC LE PIAN MEDOC 2Huawei 36KTL - 6HUAWEI ERROR [2012]A-289700305/10/2025 14:5304/10/2025 16:37AP8806 - ROUVELETROUVELETPas de données dataloggerA-289698005/10/2025 14:4805/10/2025 09:15AP5835 - VOLTERRECT01_IDéfaut de transmission du boîtier (délai)A-289698105/10/2025 14:4805/10/2025 09:07AP5835 - VOLTERRECT01_SDéfaut de transmission du boîtier (délai)A-289698205/10/2025 14:4805/10/2025 12:34AP5835 - VOLTERRECT01_BDéfaut de transmission du boîtier (délai)A-289698305/10/2025 14:4805/10/2025 12:45AP5835 - VOLTERRECT01_QDéfaut de transmission du boîtier (délai)A-289698405/10/2025 14:4805/10/2025 11:15AP5835 - VOLTERRECT01_TDéfaut de transmission du boîtier (délai)A-289698505/10/2025 14:4805/10/2025 09:15AUT103 - Vignerons JonquieresVIGNE8Pas de données dataloggerA-289696105/10/2025 14:4305/10/2025 14:43AP2312 - BELINGARDOnduleur OND13-SG50CX-1SUNGROW ERROR [14]A-289696005/10/2025 14:4305/10/2025 14:43EA505 - GABETLT2 - Onduleur 5 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289695705/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond2Défaut de transmission d'un équipement (délai)A-289695805/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond1Défaut de transmission d'un équipement (délai)A-289695905/10/2025 14:4304/10/2025 16:5426A - Micheli 1Onduleur Ond3Défaut de transmission d'un équipement (délai)A-289694905/10/2025 14:4105/10/2025 14:41AP3024 - FAVOLE B1+B2Onduleur OND3-SG110CX-1SUNGROW ERROR [561]A-289694505/10/2025 14:4005/10/2025 14:40EA505 - GABETLT1 - Onduleur 4 (M20)SUNSPEC ERROR [AC_OVER_VOLT]A-289692305/10/2025 14:3605/10/2025 11:45AP4621 - LACHEZEDépassement puissance de raccordementA-289687105/10/2025 14:2205/10/2025 13:00PV1001 - SalbrisProduction vs. heures du soleil au fil de l'eauA-289686405/10/2025 14:2105/10/2025 13:00AP5725 - PICCARDINO Laurent1 -DELTA M50A Production vs. heures du soleil au fil de l'eauA-289686305/10/2025 14:2005/10/2025 08:00KP3_602 - ROUSSET 1Compteur ENEDIS à 0A-289686105/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond2Production vs. heures du soleil au fil de l'eauA-289686205/10/2025 16:2005/10/2025 15:00BAR046C - BARRET Jean-PaulOnduleur Ond1Production vs. heures du soleil au fil de l'eauA-289684605/10/2025 14:1605/10/2025 14:16EA1313 - GALINIEROnduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289686305",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833364,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 16:20",
+      "equipment": "Onduleur Ond2Production vs. heures du soleil au fil de l'eau",
+      "id": "A-289686105",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833378,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 16:20",
+      "equipment": "Onduleur Ond1Production vs. heures du soleil au fil de l'eau",
+      "id": "A-289686205",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833391,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 14:16",
+      "equipment": "Onduleur m20SUNSPEC ERROR [AC_OVER_VOLT]",
+      "id": "A-289684605",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833406,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:27:13",
+      "equipment": "Inconnu",
+      "id": "A-2897134",
+      "severity": "Normal",
+      "site": "Inconnu",
+      "status": "Active",
+      "timestamp": 1759670833419,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:27:13",
+      "equipment": "Module)550003 | KIT AE+9 - 2 (Uniquement Module)AUTRES.110024 | Ballon de 180L inox bleu110025 | Ballon sunray 180L beige110027 | Ballon sunray 304L beige110028 | Ballon sunray 304L Bleu110028 | Ballon sunray 304L Bleu110029 | Ballon sunray 440L beige110030 | Ballon pacific 440L bleu110031 | Ballon sunray 440L vert110032 | Ballon pacific 440L beige110033 | Ballon sunray 600L beige110034 | Ballon pacific 600L beige110111 | Joint Klingerith112004RE | Capteur Cofer112005 | Capteur Sunray112010 | Feuillard INOX 20x0.7 MM AISI 304 - Rouleau 50M114001 | Regul. Diff. solaire TR0301114101 | Station REGULSOL 130 DN25 1-6l280004 | Maintenance Préventive Mensuelle280004 | Maintenance Préventive Mensuelle280010 | Dédouannement280010 | Dédouannement280011 | Transport Maritime280011 | Transport Maritime280012 | Transport Aérien280012 | Transport Aérien280013 | Déplacement280013 | Déplacement440001 | Tore Ouvrant 300mm DPX - LEG026098440002 | Relais Diff DPX - LEG026088440003 | Déclencheur emission 230V AC/DC - LEG DMX 26967500068 | Câble rigide ext. N 3G4511055 | Câble souple int. V/J 1x16520010 | Câble téléphonique 4 paires730002 | ST electronic Réparation Test730002 | ST electronic Réparation Test731010 | ST méca fab pièces prototypes731010 | ST méca fab pièces prototypes739000 | ST Installation sur site739000 | ST Installation sur site739001 | ST Service après-vente739001 | ST Service après-vente801014 | Vis VBA cruciforme 4x35801208 | Vis à bois inox 5x40801361 | Vis inox 6x16 ent. filetée801364 | Vis inox 6x30 ent. filetée801825 | Rivet aveugle 4x12801940 | Cheville crampon 4 à 7 mm802024 | Goujon EJOT JA3-SB-8x80FZDbois802028 | Goujon EJOT JZ3 8x80802163 | Rondelle plate inox M  d=6 A2802164 | Rondelle plate inox M  d=8 A2802213 | Rondelle grower inox d=6802214 | Rondelle grower inox d=8802513 | Ecrou inox d=6 HU802514 | Ecrou inox d=8 HU802525 | Ecrou Inox d10 A2 Intersol803244 | Eclisse U40 GAC806213 | Rail Dyn824421 | Bloc diff.40A4P300mA Schneider824423 | Blocdif.125A4P 300mA Schneider827241 | Cartouche ind. 22x58 100A gG827242 | Cartouche ind. 22x58 125A gG831215 | Collier Colson 9x260832102 | Barette dominos 6 mn noir832103 | Barette dominos 10 mn noir833031 | Bornier Débrochable 3Pts835032 | Cosse tubulaire T16 M8837010 | Répartiteur de terre 854048 | Mémoire ibutton DALLAS857030 | Varistance fusible th° VTC150860020 | Embase droite 12 pts - p3.5 -860025 | Bornier Débrochable 12Pts860026 | Bornier Débrochable 9Pts893615 | Lasermètre Disto D8 & trépied900001 | T-Shirt Imperial - Taille M900002 | T-Shirt Imperial - Taille L900003 | T-Shirt Imperial - Taille XL900004 | T-Shirt Imperial - Taille XXL900005 | T-Shirt Century (Manche Longue) - Toute Taille900010 | Coupe-vent Surf - Taille M900011 | Coupe-vent Surf - Taille L900012 | Coupe-vent Surf - Taille XL900020 | Pantalon Workwear - Taille M900021 | Pantalon Workwear - Taille L900022 | Pantalon Workwear - Taille XL900030 | Gilet Sécurité APEX - Taille XL900040 | Barrière de sécurité Heras900100 | Carnet bon d'interventionAUTRE | AutreBATT.300005 | Accumulateur Solar 550 CS301005 | Accumulateur Solar 550 CL301007 | Accumulateur Solar 765 CL301009 | Accumulateur Solar 1320 CL301010 | Accumulateur Solar 1650 CL306002 | Accumulateur SolarBloc210/12CS363045 | Accumulateur A412-90A363079 | Accumulateur A512-140A371001 | Accumulateur Solar 48V-2.4kWh Li-Ion390025 | Densimètre + notice390043 | Déminéralisateur mini 40390044 | Sachet résine mini 40390047 | Cosse batterie type voiture +390048 | Cosse batterie type voiture -700040 | Emballage maritime batterie700040 | Emballage maritime batterie730001 | ST recyclage acide730001 | ST recyclage acideCRPLT.010851 | Module BP 585S 85W 12V MC012750 | Module BP 275F 75W 12V012773 | Module BP4165N 165W 24V ARC MC012774 | Module BP3170N 170W 24V WP ARC012775 | Module BP3220N LARGE FRAME014751 | Module BP SX75TU 75W 12V 014800 | Module BP SX80U 80W 12V SPJB014801 | Module BP 380U 80W 12V SPJB014802 | Module BP 380S 80W 12V MC014803 | Module BP 375U 75W 12V SPJB014813 | Module BP 375J 75Wc 12V J-Box014818 | Module BP 380S 80W 12V WPET MC014824 | Module BP380J 80W 12V Madrid014831 | Module BP485N 85W 12V014831 | Module BP485N 85W 12V014832 | MODULE BP485J 85W 12V014833 | Module BP380J 80W 12V014901 | Module BP 3115S 115W 12V MC014952 | Module BP 3150U 150W 24V SPJB014953 | Module BP 3170N 170Wc MC014954 | Module BP3160N MC3014954 | Module BP3160N MC3014955 | Module BP 5170S 170 Wc MC014966 | Module BP3160S 160W 24V WPET014969 | Module BP3165N 165W 24V WPET014973 | Module BP3160N 24V WP ARC 018100 | MODULE OPTISOL P017028K018101 | MODULE OPTISOL P006010K019121 | Module Integrafix-R V4 BP3170T020001 | Module QCells Q.Pro 3.0 260 EU025001 | Module Luxor Eco Line LX-200 200 Wc025002 | Module Luxor Ecol Line P48 200 Wc025002 | Module Luxor Ecol Line P48 200 Wc025010 | Module AXITEC AC-200P - 200Wc030001 | Module Sunowe SF156X156-60-M 250 Wp030001 | Module Sunowe SF156X156-60-M 250 Wp242000 | Camera Sécurité Samsung242001 | Vidéo transmetteur NVT NV-653T242001 | Vidéo transmetteur NVT NV-653T242002 | Switch 8 ports ethernet DLINK242020 | Modem Simply Connect ICCR 3.5g242022 | Modem US robotics 56KFax-modem242024 | Modem analogique TIXI Fronius242026 | Modem GPRS Quad band MC55i/TC35i242027 | Cable pour modem GSM TC35iT242028 | Antenne GSM patch dual band242029 | Modem GSM TCI B5242030 | Compteur GPRS MK7C R-TONE242032 | Compteur GPRS MK7C R-TONE sans abo242033 | Compteur GPRS MK7C R-TONE abonnement 3 ans242035 | Compteur GPRS MK7C R-TONE abonnement 5 ans242039 | Antenne GSM 10 m242040 | Antenne déporté Webdynsun242041 | Datalogger WebdynSun Ethernet / GPRS + Alim (220v)242042 | Coffret Webdynsun (alim 220 V / dij 2A inclus)242044 | Rail + Disjoncteur + 2 bornes arrets (Webdyn)242045 | Datalogger Webdynsun Modbus242045 | Datalogger Webdynsun Modbus242050 | Compteur GPRS MK10A R-TONE242053 | Compteur GPRS MK10A R-TONE abonnement 3 ans242055 | Compteur GPRS MK10A R-TONE abonnement 5 ans242070 | Solarlog 1200 GPRS intégré dans coffret242071 | Solarlog 2000 GPRS intégré dans coffret242072 | Solarlog SensorBox242081 | Coffret datalogger WebLog MC - Pilote Fronius242090 | Antenne TP LINK + Rallonge 5 M243002 | Tor boucle Flexible Aergy - L 25cm diam 7250850 | Armoire AC LCP270104 | Coffret AC-DC 600V 25A 2E-1S270105 | Coffret Schneider (700*500)270106 | Coffret Schneider (222*225)270107 | Coffret Schneider (200*300)270108 | Coff. Inter.CC 440V 32A 4E/2S270109 | Coffr. sect.CC440V 32A 8E/4S270110 | Coffret DC LT 4E 16A270111 | Coffret DC LT - 2E Technideal270112 | Coffret DC LT - 3E Technideal270113 | Coffret DC LT - 4E Technideal270125 | Coffret AC 25A CR 1E/2S270170 | Cof. DC LCP 10chaines/2S IP65270180 | Coffret DC 1000x800 SCHNEIDER IP66270181 | Coffret DC - Herelec LT270201 | Coffret comptage CR25A AC IP22280100 | Sonde 5m température PT1000280110 | Convertisseur Rink Elect PT1000 - 0-10V400048 | Back up PSPXT700-230410010 | Ond CR SB1700E 1500W - Type:04410018 | Ond SMA SB1600TL410019 | Ond SMA SB2100TL-21410020 | Ond SMA SB2500TL-21410021 | Ond SMA SB3000TL-21410022 | Ond SMA SB2500HF-30410023 | Ond SMA SB3000HF-30410024 | Ond SMA SB5000TL-21410025 | Carte Com RS485 SMA SB410026 | Carte Com RS485 SMA HF-30410027 | SMA Q Module (Bluetooth)410028 | Ond SMA SB2.5 modbus410029 | Kit 3 varistance SMA410029 | Kit 3 varistance SMA410030 | Pyranomètre Si - SPLite 50m410031 | Ond SMA SB 5.0 modbus410031 | Ond SMA SB 5.0 modbus410031 | Onduleur SMA SB 5.0410039 | Boitier Datalogger WEB Fronius410040 | Boit. afficheur public FRONIUS410042 | Carte interface FRONIUS410043 | Boitier interface FRONIUS410044 | Datalogger & interface FRONIUS410045 | TAC-ITA Card FRONIUS410051 | Ond CR IG20 1800W - INT - FR410052 | Ond CR IG30 2500W - INT - FR410057 | Ond CR IG30 2500W - EXT - FR410063 | CAPTEUR T° AMBIANTE FRONIUS410064 | CAPTEUR T° MODULE FRONIUS410066 | CAPTEUR ANEMOMETRE FRONIUS410067 | ALIM. 12V COM FRONIUS410068 | Boit Centrale capteur FRONIUS410069 | Carte Centrale capteur FRONIUS410073 | Carte Datalogger Easy Retrofit IG FRONIUS410075 | Carte COM FRONIUS410078 | Cable RJ45 Liaison IG  FRONIUS410079 | Boitier Datalogger USB FRONIUS410080 | Carte Datalogger RS232 FRONIUS410094 | Cable USB de A vers B410095 | Carte signal FRONIUS410096 | Boit. Aff Personnel RF FRONIUS410098 | Datamanager Card Fronius410100 | Ond FRONIUS Primo 4.6-1410120 | Ond CR IG15 1300W - INT - FR410121 | Ond CR IG20 1800W - INT - FR410122 | Ond CR IG30 2500W - INT - FR410123 | Ond CR IG40 3500W - INT - FR410124 | Ond CR IG60 4600W - INT - FR410125 | Ond CR IG15 1300W - EXT - FR410126 | Ond CR IG20 1800W - EXT - FR410127 | Ond CR IG30 2500W - EXT - FR410133 | Ond CR IG40 3500W - EXT - FR410134 | Ond CR IG60 4600W - EXT - FR410140 | Ond CR IG15 1300W - INT - DOM410141 | Ond CR IG20 1800W - INT - DOM410142 | Ond CR IG30 2500W - INT - DOM410143 | Ond CR IG40 3500W - INT - DOM410144 | Ond CR IG60 4600W - INT - DOM410150 | Ond CR IG15 1300W - EXT - DOM410151 | Ond CR IG20 1800W - EXT - DOM410152 | Ond CR IG30 2500W - EXT - DOM410153 | Ond CR IG40 3500W - EXT - DOM410154 | Ond CR IG60 4600W - EXT - DOM410170 | Ond CR IGPlus100 -biph-IP44DOM410171 | Ond CR IGPlus120 -tri-IP44 DOM (Partie haute)410172 | Ond CR IGPlus150 -3ph-IP44 DOM410173 | Ond CR IGPlus70 -mono-IP44 DOM410174 | Ond CR IGPlus50 -mono-IP44 DOM410175 | Ond CR IGPlus100 -mono-IP44DOM410177 | Ond CR IGPlus70 -biph-IP44 DOM410180 | Ond CR IGPlus35 -mono-IP44 FR410181 | Ond CR IGPlus35 -mono-IP44 DOM410182 | Ond CR IGPlus50 -mono-IP44 FR410183 | Ond CR IGPlus70 -mono-IP44 FR410184 | Ond CR IGPlus70 -biph-IP44 FR410185 | Ond CR IGPlus100 -mono-IP44 FR410186 | Ond CR IGPlus100 -biph-IP44 FR410187 | Ond CR IGPlus120 -tri-IP44 FR410188 | Ond CR IGPlus150 -tri-IP44 FR410189 | Contacteur ABB - Ond Fronius410190 | Contacteur Allen Bradely M220410220 | DC-Connector Kit410300 | Ond CR Sun Ezy 2000 410301 | Ond CR Sun Ezy 2800410302 | Ond CR Sun Ezy 3000410305 | Ond CR Sun Ezy 600E415014 | Pyranomètre Spektron 100415020 | Pyranomètre Spektron 300415021 | Capteur d'irradiation Spektron 320415111 | Pont Wi-fi pr telegestion LCP415119 | Vent. FRONIUS Radial IG central415125 | Vent. générique (Fronius IG)415126 | Ventilateur Radial Fronius IG PLUS415126 | Ventilateur Radial Fronius IG PLUS415127 | Ventilateur Axial Fronius IG PLUS415127 | Ventilateur Axial Fronius IG PLUS417030 | Ond CR IG300 -tri- IP21 DOM417040 | Ond CR IG400 -tri- IP21  DOM417050 | Ond CR IG500 -tri- IP21 DOM417051 | Ond CR IG500 -tri- IP21 FR418001 | Clapet anti-retour IG FRONIUS418002 | Capot protection IP43 FRONIUS418003 | Option ventilation IG FRONIUS418011 | String control 15xMC4 FRONIUS418013 | String control 250/25418020 | Fusible 10A 600V 10p418021 | Fusible 15A 600V 10p FRONIUS418022 | Fusible Legrand GG14x51 50A418022 | Fusible Legrand GG14x51 50A418030 | Carte Filtre AC/DC Ond IG15418031 | Carte Filtre AC/DC Ond IG15-20418032 | Carte Filtre AC/DC Ond IG30418033 | Carte Filtre AC/DC Ond IG40/60418040 | Transformateur Carte DC - Ond FRONIUS418041 | Transformateur Carte AC - Ond FRONIUS418050 | Fusible CC 16A 440V T14.51418051 | Fusible 125A 400V AC 58-22418052 | Fusible 80A 1000 V DC A Couteau418053 | Fusible 50A 400 VAC 14-51418060 | Parafoudre T2 Monobloc SURGYS D40 4P418061 | Porte Fusible RM50 14x51 3P+N418062 | Porte Fusible Phoenix - Fusible 8A 1000V DC418063 | Porte Fusible Socomecx 2P - Fusible 50A-690 V AC418064 | Parafoudre DC - CITEL - 1000 VDC 15KA418064 | Parafoudre DC - CITEL - 1000 VDC 15KA418070 | Sectionneur DC SIRCO MV PV 4x63A + Poignée + Jeu de Barre418071 | Sectionneur DC SIRCO MC PV 25A 1000 VDC 3P - Poignee418071 | Sectionneur DC SIRCO MC PV 25A 1000 VDC 3P - Poignee419003 | ABB TRIO TM-50419004 | ABB PVS-100-TL420001 | Carte Com RS485 Born CPU - JEMA420002 | Carte Contrôle Type A+ int WBC5200 - JEMA420003 | Unité de conversion SKIP 2013GB172-4DL - JEMA420004 | PLC Monitoring Schneider420004 | PLC Monitoring Schneider420005 | PLC Main CPU Board420005 | PLC Main CPU Board450001 | Onduleur DELTA RPI H3450002 | Onduleur DELTA RPI M8A450003 | Onduleur DELTA RPI M10A450004 | Onduleur DELTA RPI M15A450005 | Onduleur DELTA RPI M20A450006 | Onduleur DELTA RPI M30A450007 | Onduleur DELTA RPI M50A450008 | Onduleur DELTA M88H450009 | RPI H2.5500040 | Câble Solaire 4mm²500040 | Câble Solaire 4mm²500050 | Cable Solaire 6mm²500060 | Cable 5G 1.5mm² R2V500100 | Cable Terre500101 | Câble Terre nu500105 | Borne MAT802032 | Joint pour goujon EJOT824424 | Sectionneur AC NSA 250 - Schneider824425 | Disjoncteur 2p D Clic  20 A824426 | Parafoudre LV - Schneider824427 | Disjoncteur C120 63A Mono824428 | Disjoncteur C2824429 | Disjoncteur AC Schneider Compact NSX160824429 | Disjoncteur AC Schneider Compact NSX160832016 | Connect. MC fem. PV-KBT4/6II832017 | Connect. MC Male PV-KST4/6II838503 | Parafoudre 2P 230V838513 | Parafoudre uni 500VDC TYPE 2858216 | Carte afficheur IG+ FRONIUS860605 | Fiche RJ45 8/8S410014 | Ond CR. SB GCI 2400 SMAS410061 | Carte-Print DCDC IG15S410062 | Fronius Display OUTDOORS410063 | Fronius Display INDOORS410064 | Carte-Print DCDC IG20S410065 | Carte-Print DCDC IG30S410067 | Power Rack 3000 FroniusS410070 | Plastic Front FRONIUS IGS410071 | PC Board COM Card AS410073 | Carte-Print IG LT-AC SRxS410080 | SAV Carte IG-CTRL Fronius IG60S410081 | SAV Carte IG-CTRL Fronius IG15S410082 | SAV Carte IG-CTRL Fronius IG20S410083 | SAV Carte IG-CTRL Fronius IG30S411070 | Carte-Print PINCIS411071 | Carte-Print C-BOX2S411072 | Carte IG BRAIN 120-3S411073 | Carte IG BRAIN 50-1S415040 | Cable AC Interne IG60 IndoorS415050 | Face AV Onduleur FRONIUS IGxxS415051 | Coté Onduleur FRONIUS IGxxS415052 | Grille de ventilation FRONIUSS415054 | Base Onduleur FRONIUS IGxxGPVI.201202 | Régulateur GCR 1200202004 | Régulateur GCR 2000203000 | Régulateur GCR 3000221212 | Régul BP-GM 24/48v221215 | Cable RS232 DB9/jack BPGM 2m221221 | Carte BP-SHS R3230011 | Acquisition µdatas 24V230012 | Acquisition µdatas 48 V230020 | Régulateur STECA TAROM 4545-48V-45A242043 | Convertisseur SENA LTC100 RS232<>RS485242300 | Report info BP-RI250119 | Armoire DFC2006 48V étanche250391 | Armoire SOLSAFE270025 | UCP 5E/1S 12/24V+PF PE21270027 | UCP 5E/1S 48V+PF PE21270028 | UCP 8E unipolaires /1S 48V+PF270029 | UCP 5E/1S 48V+PF PE29270030 | Coffret protection bat. 125A270032 | UCP 5E/1S 12/24V+PF PE29280405 | Carte UCP + commun - 12/24V280410 | Carte UCP + commun - 48V280551 | Terminal prépaiement BP-SHS T2400023 | Ond. Xantrex Prosine 1000i 12V400024 | OND XANTREX 1800W 12V-230V401006 | Onduleur SITP 1224- 230V/50Hz401007 | Onduleur SITP 1624-230V/50 Hz401008 | Onduleur SITP 2324-230V/50Hz401014 | Onduleur SI 1224401015 | Onduleur SI 3324401016 | Onduleur SI 2324401022 | Onduleur SI 3548401028 | Onduleur SITP 2324-230V/60Hz402000 | Onduleur SITP 1248 - 230V/50Hz402001 | Onduleur SITP 2348-230V-50Hz402002 | Onduleur SITP 3548-230V-50Hz403049 | Onduleur pompage BP-AP 1.5kW403051 | Onduleur pompage BP-AP 1.1kW403052 | Onduleur pompage BP-AP 2.2kW403058 | Onduleur pompage BP-AP 5.5kW403080 | Onduleur BP-AP V2 présérie404010 | Carte Studer SI 1248 50Hz404014 | Carte Studer SI 1224-50Hz404016 | Carte Studer SI 2324-50Hz404018 | Carte Studer SI 3548-50Hz404019 | Carte Studer SITP 1224-50Hz404021 | Carte Studer SITP 2324-50Hz404023 | Carte Studer SITP 3548-50Hz404024 | Carte Studer SITP 2348-50Hz404025 | Ventilateur 80x80x25 - Ond STUDER404026 | Carte Studer SITP 1248-50Hz404121 | Carte Studer SITP 2324-60Hz421002 | Chargeur MASS 24/50431003 | Module commande SOLSAFE ARM-01431072 | Combi C 4000-48-50A431074 | Combi C 4000-48/50A-DFC431077 | Combi C 2600-24S-55A431078 | Combi C 2600-24-55A-60Hz431079 | Combi C 2600-24-55A-DFC-50Hz431083 | Combi HPC 6000-48 70A TLC431090 | Combi C 4000-48-50A Back-up431091 | Combi C 4000-48-50A-60Hz431096 | Combi XTH 8000-48-120A431098 | REMOTE CONTROL RCC STUDER435000 | Capot isolant C.II Compact435001 | Capot Supérieur pour Compact435008 | Carte Studer C4000-48-50Hz-Std435009 | Carte Studer C4000-48-60Hz-(32/36)435015 | Carte Studer HPC5048435016 | Carte Studer PB 5048-36620021 | Pompe imer.0.9kW SQF2.5-2620061 | POMPE IMER. 2.2KW3X230V SP5A-21830030 | Relais shrack 2x25A 48Vcc830110 | Relais mercure 35NC-12V830112 | Relais mercure 35NC-24V830114 | Relais mercure 35NC-48V854052 | EEPROM M27C512856021 | Relais Statique BP-RLS V2863002 | Touch reader black863003 | Touch reader blue863004 | Touch reader yellow863005 | Touch reader red863006 | Touch reader greenF242300 | Carte BP-RIS221011 | Automate µFct 24VS221012 | Automate µFct 48VS240010 | Boîtier com. µTransfertS402003 | Ond sinus SI648 600W/48VS404020 | Carte Studer SITP 1624-50HzS404037 | Carte Studer SITP 2324-37-50HzS404055 | Petit Transfo SITP 12VS404056 | Petit Transfo SITP 24VS404057 | Petit Transfo SITP 48VS404060 | Transfo ond SI 23xxS404061 | Transfo ond SI 2324 + TPS404062 | Transfo ond C2600-24S404063 | Transfo ond SITP3548S404064 | Transfo ond C4000-48S404065 | Plaque arrière ond SI2324S404066 | Plaque avant ond SI2324S404067 | Plaque arrière SI2324 NOIRS404068 | Plaque avant SI2324 NOIRS404069 | Plaque arr SITP1248 NOIRS404070 | Plaque Avant SITP1248 NOIRS404071 | Boitier C2600-24 StuderS404071 | Boitier C2600-24 StuderS435010 | Carte Studer C2600-24-50Hz-StdS435011 | Carte Studer C2600-24-50Hz-(32/36)S435012 | Carte Studer C4000-48-50Hz-(32/36)S435036 | Carte Studer Display CXXXX-ApexS435038 | Carte Studer Display CXXXX-StdS435070 | Capot inférieur Ond CompactS435070 | Capot inférieur Ond CompactS435071 | Capot inférieur + plaque av Ond SIS435071 | Capot inférieur + plaque av Ond SIS435074 | Mousse pour capot CIP22 (S435075)S435075 | SAV Capot sup + Mouss C4000-48S435076 | Plaque arrière C4000-48S435077 | Plaque Avant C4000-48S435078 | Plaque arrière SITP2324S435079 | Plaque arrière SITP1224S435080 | Plaque arrière C2600-24S435111 | Carte Studer C2600-24-60Hz-(32/36)S806150 | Guide carte alu ond STUDER",
+      "id": "A-690",
+      "severity": "Normal",
+      "site": "TD419001 | ABB T",
+      "status": "Active",
+      "timestamp": 1759670833431,
+      "type": "Inconnu"
+    },
+    {
+      "date": "05/10/2025 15:27:13",
+      "equipment": "Module)550003 | KIT AE+9 - 2 (Uniquement Module)AUTRES.110024 | Ballon de 180L inox bleu110025 | Ballon sunray 180L beige110027 | Ballon sunray 304L beige110028 | Ballon sunray 304L Bleu110028 | Ballon sunray 304L Bleu110029 | Ballon sunray 440L beige110030 | Ballon pacific 440L bleu110031 | Ballon sunray 440L vert110032 | Ballon pacific 440L beige110033 | Ballon sunray 600L beige110034 | Ballon pacific 600L beige110111 | Joint Klingerith112004RE | Capteur Cofer112005 | Capteur Sunray112010 | Feuillard INOX 20x0.7 MM AISI 304 - Rouleau 50M114001 | Regul. Diff. solaire TR0301114101 | Station REGULSOL 130 DN25 1-6l280004 | Maintenance Préventive Mensuelle280004 | Maintenance Préventive Mensuelle280010 | Dédouannement280010 | Dédouannement280011 | Transport Maritime280011 | Transport Maritime280012 | Transport Aérien280012 | Transport Aérien280013 | Déplacement280013 | Déplacement440001 | Tore Ouvrant 300mm DPX - LEG026098440002 | Relais Diff DPX - LEG026088440003 | Déclencheur emission 230V AC/DC - LEG DMX 26967500068 | Câble rigide ext. N 3G4511055 | Câble souple int. V/J 1x16520010 | Câble téléphonique 4 paires730002 | ST electronic Réparation Test730002 | ST electronic Réparation Test731010 | ST méca fab pièces prototypes731010 | ST méca fab pièces prototypes739000 | ST Installation sur site739000 | ST Installation sur site739001 | ST Service après-vente739001 | ST Service après-vente801014 | Vis VBA cruciforme 4x35801208 | Vis à bois inox 5x40801361 | Vis inox 6x16 ent. filetée801364 | Vis inox 6x30 ent. filetée801825 | Rivet aveugle 4x12801940 | Cheville crampon 4 à 7 mm802024 | Goujon EJOT JA3-SB-8x80FZDbois802028 | Goujon EJOT JZ3 8x80802163 | Rondelle plate inox M  d=6 A2802164 | Rondelle plate inox M  d=8 A2802213 | Rondelle grower inox d=6802214 | Rondelle grower inox d=8802513 | Ecrou inox d=6 HU802514 | Ecrou inox d=8 HU802525 | Ecrou Inox d10 A2 Intersol803244 | Eclisse U40 GAC806213 | Rail Dyn824421 | Bloc diff.40A4P300mA Schneider824423 | Blocdif.125A4P 300mA Schneider827241 | Cartouche ind. 22x58 100A gG827242 | Cartouche ind. 22x58 125A gG831215 | Collier Colson 9x260832102 | Barette dominos 6 mn noir832103 | Barette dominos 10 mn noir833031 | Bornier Débrochable 3Pts835032 | Cosse tubulaire T16 M8837010 | Répartiteur de terre 854048 | Mémoire ibutton DALLAS857030 | Varistance fusible th° VTC150860020 | Embase droite 12 pts - p3.5 -860025 | Bornier Débrochable 12Pts860026 | Bornier Débrochable 9Pts893615 | Lasermètre Disto D8 & trépied900001 | T-Shirt Imperial - Taille M900002 | T-Shirt Imperial - Taille L900003 | T-Shirt Imperial - Taille XL900004 | T-Shirt Imperial - Taille XXL900005 | T-Shirt Century (Manche Longue) - Toute Taille900010 | Coupe-vent Surf - Taille M900011 | Coupe-vent Surf - Taille L900012 | Coupe-vent Surf - Taille XL900020 | Pantalon Workwear - Taille M900021 | Pantalon Workwear - Taille L900022 | Pantalon Workwear - Taille XL900030 | Gilet Sécurité APEX - Taille XL900040 | Barrière de sécurité Heras900100 | Carnet bon d'interventionAUTRE | AutreBATT.300005 | Accumulateur Solar 550 CS301005 | Accumulateur Solar 550 CL301007 | Accumulateur Solar 765 CL301009 | Accumulateur Solar 1320 CL301010 | Accumulateur Solar 1650 CL306002 | Accumulateur SolarBloc210/12CS363045 | Accumulateur A412-90A363079 | Accumulateur A512-140A371001 | Accumulateur Solar 48V-2.4kWh Li-Ion390025 | Densimètre + notice390043 | Déminéralisateur mini 40390044 | Sachet résine mini 40390047 | Cosse batterie type voiture +390048 | Cosse batterie type voiture -700040 | Emballage maritime batterie700040 | Emballage maritime batterie730001 | ST recyclage acide730001 | ST recyclage acideCRPLT.010851 | Module BP 585S 85W 12V MC012750 | Module BP 275F 75W 12V012773 | Module BP4165N 165W 24V ARC MC012774 | Module BP3170N 170W 24V WP ARC012775 | Module BP3220N LARGE FRAME014751 | Module BP SX75TU 75W 12V 014800 | Module BP SX80U 80W 12V SPJB014801 | Module BP 380U 80W 12V SPJB014802 | Module BP 380S 80W 12V MC014803 | Module BP 375U 75W 12V SPJB014813 | Module BP 375J 75Wc 12V J-Box014818 | Module BP 380S 80W 12V WPET MC014824 | Module BP380J 80W 12V Madrid014831 | Module BP485N 85W 12V014831 | Module BP485N 85W 12V014832 | MODULE BP485J 85W 12V014833 | Module BP380J 80W 12V014901 | Module BP 3115S 115W 12V MC014952 | Module BP 3150U 150W 24V SPJB014953 | Module BP 3170N 170Wc MC014954 | Module BP3160N MC3014954 | Module BP3160N MC3014955 | Module BP 5170S 170 Wc MC014966 | Module BP3160S 160W 24V WPET014969 | Module BP3165N 165W 24V WPET014973 | Module BP3160N 24V WP ARC 018100 | MODULE OPTISOL P017028K018101 | MODULE OPTISOL P006010K019121 | Module Integrafix-R V4 BP3170T020001 | Module QCells Q.Pro 3.0 260 EU025001 | Module Luxor Eco Line LX-200 200 Wc025002 | Module Luxor Ecol Line P48 200 Wc025002 | Module Luxor Ecol Line P48 200 Wc025010 | Module AXITEC AC-200P - 200Wc030001 | Module Sunowe SF156X156-60-M 250 Wp030001 | Module Sunowe SF156X156-60-M 250 Wp242000 | Camera Sécurité Samsung242001 | Vidéo transmetteur NVT NV-653T242001 | Vidéo transmetteur NVT NV-653T242002 | Switch 8 ports ethernet DLINK242020 | Modem Simply Connect ICCR 3.5g242022 | Modem US robotics 56KFax-modem242024 | Modem analogique TIXI Fronius242026 | Modem GPRS Quad band MC55i/TC35i242027 | Cable pour modem GSM TC35iT242028 | Antenne GSM patch dual band242029 | Modem GSM TCI B5242030 | Compteur GPRS MK7C R-TONE242032 | Compteur GPRS MK7C R-TONE sans abo242033 | Compteur GPRS MK7C R-TONE abonnement 3 ans242035 | Compteur GPRS MK7C R-TONE abonnement 5 ans242039 | Antenne GSM 10 m242040 | Antenne déporté Webdynsun242041 | Datalogger WebdynSun Ethernet / GPRS + Alim (220v)242042 | Coffret Webdynsun (alim 220 V / dij 2A inclus)242044 | Rail + Disjoncteur + 2 bornes arrets (Webdyn)242045 | Datalogger Webdynsun Modbus242045 | Datalogger Webdynsun Modbus242050 | Compteur GPRS MK10A R-TONE242053 | Compteur GPRS MK10A R-TONE abonnement 3 ans242055 | Compteur GPRS MK10A R-TONE abonnement 5 ans242070 | Solarlog 1200 GPRS intégré dans coffret242071 | Solarlog 2000 GPRS intégré dans coffret242072 | Solarlog SensorBox242081 | Coffret datalogger WebLog MC - Pilote Fronius242090 | Antenne TP LINK + Rallonge 5 M243002 | Tor boucle Flexible Aergy - L 25cm diam 7250850 | Armoire AC LCP270104 | Coffret AC-DC 600V 25A 2E-1S270105 | Coffret Schneider (700*500)270106 | Coffret Schneider (222*225)270107 | Coffret Schneider (200*300)270108 | Coff. Inter.CC 440V 32A 4E/2S270109 | Coffr. sect.CC440V 32A 8E/4S270110 | Coffret DC LT 4E 16A270111 | Coffret DC LT - 2E Technideal270112 | Coffret DC LT - 3E Technideal270113 | Coffret DC LT - 4E Technideal270125 | Coffret AC 25A CR 1E/2S270170 | Cof. DC LCP 10chaines/2S IP65270180 | Coffret DC 1000x800 SCHNEIDER IP66270181 | Coffret DC - Herelec LT270201 | Coffret comptage CR25A AC IP22280100 | Sonde 5m température PT1000280110 | Convertisseur Rink Elect PT1000 - 0-10V400048 | Back up PSPXT700-230410010 | Ond CR SB1700E 1500W - Type:04410018 | Ond SMA SB1600TL410019 | Ond SMA SB2100TL-21410020 | Ond SMA SB2500TL-21410021 | Ond SMA SB3000TL-21410022 | Ond SMA SB2500HF-30410023 | Ond SMA SB3000HF-30410024 | Ond SMA SB5000TL-21410025 | Carte Com RS485 SMA SB410026 | Carte Com RS485 SMA HF-30410027 | SMA Q Module (Bluetooth)410028 | Ond SMA SB2.5 modbus410029 | Kit 3 varistance SMA410029 | Kit 3 varistance SMA410030 | Pyranomètre Si - SPLite 50m410031 | Ond SMA SB 5.0 modbus410031 | Ond SMA SB 5.0 modbus410031 | Onduleur SMA SB 5.0410039 | Boitier Datalogger WEB Fronius410040 | Boit. afficheur public FRONIUS410042 | Carte interface FRONIUS410043 | Boitier interface FRONIUS410044 | Datalogger & interface FRONIUS410045 | TAC-ITA Card FRONIUS410051 | Ond CR IG20 1800W - INT - FR410052 | Ond CR IG30 2500W - INT - FR410057 | Ond CR IG30 2500W - EXT - FR410063 | CAPTEUR T° AMBIANTE FRONIUS410064 | CAPTEUR T° MODULE FRONIUS410066 | CAPTEUR ANEMOMETRE FRONIUS410067 | ALIM. 12V COM FRONIUS410068 | Boit Centrale capteur FRONIUS410069 | Carte Centrale capteur FRONIUS410073 | Carte Datalogger Easy Retrofit IG FRONIUS410075 | Carte COM FRONIUS410078 | Cable RJ45 Liaison IG  FRONIUS410079 | Boitier Datalogger USB FRONIUS410080 | Carte Datalogger RS232 FRONIUS410094 | Cable USB de A vers B410095 | Carte signal FRONIUS410096 | Boit. Aff Personnel RF FRONIUS410098 | Datamanager Card Fronius410100 | Ond FRONIUS Primo 4.6-1410120 | Ond CR IG15 1300W - INT - FR410121 | Ond CR IG20 1800W - INT - FR410122 | Ond CR IG30 2500W - INT - FR410123 | Ond CR IG40 3500W - INT - FR410124 | Ond CR IG60 4600W - INT - FR410125 | Ond CR IG15 1300W - EXT - FR410126 | Ond CR IG20 1800W - EXT - FR410127 | Ond CR IG30 2500W - EXT - FR410133 | Ond CR IG40 3500W - EXT - FR410134 | Ond CR IG60 4600W - EXT - FR410140 | Ond CR IG15 1300W - INT - DOM410141 | Ond CR IG20 1800W - INT - DOM410142 | Ond CR IG30 2500W - INT - DOM410143 | Ond CR IG40 3500W - INT - DOM410144 | Ond CR IG60 4600W - INT - DOM410150 | Ond CR IG15 1300W - EXT - DOM410151 | Ond CR IG20 1800W - EXT - DOM410152 | Ond CR IG30 2500W - EXT - DOM410153 | Ond CR IG40 3500W - EXT - DOM410154 | Ond CR IG60 4600W - EXT - DOM410170 | Ond CR IGPlus100 -biph-IP44DOM410171 | Ond CR IGPlus120 -tri-IP44 DOM (Partie haute)410172 | Ond CR IGPlus150 -3ph-IP44 DOM410173 | Ond CR IGPlus70 -mono-IP44 DOM410174 | Ond CR IGPlus50 -mono-IP44 DOM410175 | Ond CR IGPlus100 -mono-IP44DOM410177 | Ond CR IGPlus70 -biph-IP44 DOM410180 | Ond CR IGPlus35 -mono-IP44 FR410181 | Ond CR IGPlus35 -mono-IP44 DOM410182 | Ond CR IGPlus50 -mono-IP44 FR410183 | Ond CR IGPlus70 -mono-IP44 FR410184 | Ond CR IGPlus70 -biph-IP44 FR410185 | Ond CR IGPlus100 -mono-IP44 FR410186 | Ond CR IGPlus100 -biph-IP44 FR410187 | Ond CR IGPlus120 -tri-IP44 FR410188 | Ond CR IGPlus150 -tri-IP44 FR410189 | Contacteur ABB - Ond Fronius410190 | Contacteur Allen Bradely M220410220 | DC-Connector Kit410300 | Ond CR Sun Ezy 2000 410301 | Ond CR Sun Ezy 2800410302 | Ond CR Sun Ezy 3000410305 | Ond CR Sun Ezy 600E415014 | Pyranomètre Spektron 100415020 | Pyranomètre Spektron 300415021 | Capteur d'irradiation Spektron 320415111 | Pont Wi-fi pr telegestion LCP415119 | Vent. FRONIUS Radial IG central415125 | Vent. générique (Fronius IG)415126 | Ventilateur Radial Fronius IG PLUS415126 | Ventilateur Radial Fronius IG PLUS415127 | Ventilateur Axial Fronius IG PLUS415127 | Ventilateur Axial Fronius IG PLUS417030 | Ond CR IG300 -tri- IP21 DOM417040 | Ond CR IG400 -tri- IP21  DOM417050 | Ond CR IG500 -tri- IP21 DOM417051 | Ond CR IG500 -tri- IP21 FR418001 | Clapet anti-retour IG FRONIUS418002 | Capot protection IP43 FRONIUS418003 | Option ventilation IG FRONIUS418011 | String control 15xMC4 FRONIUS418013 | String control 250/25418020 | Fusible 10A 600V 10p418021 | Fusible 15A 600V 10p FRONIUS418022 | Fusible Legrand GG14x51 50A418022 | Fusible Legrand GG14x51 50A418030 | Carte Filtre AC/DC Ond IG15418031 | Carte Filtre AC/DC Ond IG15-20418032 | Carte Filtre AC/DC Ond IG30418033 | Carte Filtre AC/DC Ond IG40/60418040 | Transformateur Carte DC - Ond FRONIUS418041 | Transformateur Carte AC - Ond FRONIUS418050 | Fusible CC 16A 440V T14.51418051 | Fusible 125A 400V AC 58-22418052 | Fusible 80A 1000 V DC A Couteau418053 | Fusible 50A 400 VAC 14-51418060 | Parafoudre T2 Monobloc SURGYS D40 4P418061 | Porte Fusible RM50 14x51 3P+N418062 | Porte Fusible Phoenix - Fusible 8A 1000V DC418063 | Porte Fusible Socomecx 2P - Fusible 50A-690 V AC418064 | Parafoudre DC - CITEL - 1000 VDC 15KA418064 | Parafoudre DC - CITEL - 1000 VDC 15KA418070 | Sectionneur DC SIRCO MV PV 4x63A + Poignée + Jeu de Barre418071 | Sectionneur DC SIRCO MC PV 25A 1000 VDC 3P - Poignee418071 | Sectionneur DC SIRCO MC PV 25A 1000 VDC 3P - Poignee419003 | ABB TRIO TM-50419004 | ABB PVS-100-TL420001 | Carte Com RS485 Born CPU - JEMA420002 | Carte Contrôle Type A+ int WBC5200 - JEMA420003 | Unité de conversion SKIP 2013GB172-4DL - JEMA420004 | PLC Monitoring Schneider420004 | PLC Monitoring Schneider420005 | PLC Main CPU Board420005 | PLC Main CPU Board450001 | Onduleur DELTA RPI H3450002 | Onduleur DELTA RPI M8A450003 | Onduleur DELTA RPI M10A450004 | Onduleur DELTA RPI M15A450005 | Onduleur DELTA RPI M20A450006 | Onduleur DELTA RPI M30A450007 | Onduleur DELTA RPI M50A450008 | Onduleur DELTA M88H450009 | RPI H2.5500040 | Câble Solaire 4mm²500040 | Câble Solaire 4mm²500050 | Cable Solaire 6mm²500060 | Cable 5G 1.5mm² R2V500100 | Cable Terre500101 | Câble Terre nu500105 | Borne MAT802032 | Joint pour goujon EJOT824424 | Sectionneur AC NSA 250 - Schneider824425 | Disjoncteur 2p D Clic  20 A824426 | Parafoudre LV - Schneider824427 | Disjoncteur C120 63A Mono824428 | Disjoncteur C2824429 | Disjoncteur AC Schneider Compact NSX160824429 | Disjoncteur AC Schneider Compact NSX160832016 | Connect. MC fem. PV-KBT4/6II832017 | Connect. MC Male PV-KST4/6II838503 | Parafoudre 2P 230V838513 | Parafoudre uni 500VDC TYPE 2858216 | Carte afficheur IG+ FRONIUS860605 | Fiche RJ45 8/8S410014 | Ond CR. SB GCI 2400 SMAS410061 | Carte-Print DCDC IG15S410062 | Fronius Display OUTDOORS410063 | Fronius Display INDOORS410064 | Carte-Print DCDC IG20S410065 | Carte-Print DCDC IG30S410067 | Power Rack 3000 FroniusS410070 | Plastic Front FRONIUS IGS410071 | PC Board COM Card AS410073 | Carte-Print IG LT-AC SRxS410080 | SAV Carte IG-CTRL Fronius IG60S410081 | SAV Carte IG-CTRL Fronius IG15S410082 | SAV Carte IG-CTRL Fronius IG20S410083 | SAV Carte IG-CTRL Fronius IG30S411070 | Carte-Print PINCIS411071 | Carte-Print C-BOX2S411072 | Carte IG BRAIN 120-3S411073 | Carte IG BRAIN 50-1S415040 | Cable AC Interne IG60 IndoorS415050 | Face AV Onduleur FRONIUS IGxxS415051 | Coté Onduleur FRONIUS IGxxS415052 | Grille de ventilation FRONIUSS415054 | Base Onduleur FRONIUS IGxxGPVI.201202 | Régulateur GCR 1200202004 | Régulateur GCR 2000203000 | Régulateur GCR 3000221212 | Régul BP-GM 24/48v221215 | Cable RS232 DB9/jack BPGM 2m221221 | Carte BP-SHS R3230011 | Acquisition µdatas 24V230012 | Acquisition µdatas 48 V230020 | Régulateur STECA TAROM 4545-48V-45A242043 | Convertisseur SENA LTC100 RS232<>RS485242300 | Report info BP-RI250119 | Armoire DFC2006 48V étanche250391 | Armoire SOLSAFE270025 | UCP 5E/1S 12/24V+PF PE21270027 | UCP 5E/1S 48V+PF PE21270028 | UCP 8E unipolaires /1S 48V+PF270029 | UCP 5E/1S 48V+PF PE29270030 | Coffret protection bat. 125A270032 | UCP 5E/1S 12/24V+PF PE29280405 | Carte UCP + commun - 12/24V280410 | Carte UCP + commun - 48V280551 | Terminal prépaiement BP-SHS T2400023 | Ond. Xantrex Prosine 1000i 12V400024 | OND XANTREX 1800W 12V-230V401006 | Onduleur SITP 1224- 230V/50Hz401007 | Onduleur SITP 1624-230V/50 Hz401008 | Onduleur SITP 2324-230V/50Hz401014 | Onduleur SI 1224401015 | Onduleur SI 3324401016 | Onduleur SI 2324401022 | Onduleur SI 3548401028 | Onduleur SITP 2324-230V/60Hz402000 | Onduleur SITP 1248 - 230V/50Hz402001 | Onduleur SITP 2348-230V-50Hz402002 | Onduleur SITP 3548-230V-50Hz403049 | Onduleur pompage BP-AP 1.5kW403051 | Onduleur pompage BP-AP 1.1kW403052 | Onduleur pompage BP-AP 2.2kW403058 | Onduleur pompage BP-AP 5.5kW403080 | Onduleur BP-AP V2 présérie404010 | Carte Studer SI 1248 50Hz404014 | Carte Studer SI 1224-50Hz404016 | Carte Studer SI 2324-50Hz404018 | Carte Studer SI 3548-50Hz404019 | Carte Studer SITP 1224-50Hz404021 | Carte Studer SITP 2324-50Hz404023 | Carte Studer SITP 3548-50Hz404024 | Carte Studer SITP 2348-50Hz404025 | Ventilateur 80x80x25 - Ond STUDER404026 | Carte Studer SITP 1248-50Hz404121 | Carte Studer SITP 2324-60Hz421002 | Chargeur MASS 24/50431003 | Module commande SOLSAFE ARM-01431072 | Combi C 4000-48-50A431074 | Combi C 4000-48/50A-DFC431077 | Combi C 2600-24S-55A431078 | Combi C 2600-24-55A-60Hz431079 | Combi C 2600-24-55A-DFC-50Hz431083 | Combi HPC 6000-48 70A TLC431090 | Combi C 4000-48-50A Back-up431091 | Combi C 4000-48-50A-60Hz431096 | Combi XTH 8000-48-120A431098 | REMOTE CONTROL RCC STUDER435000 | Capot isolant C.II Compact435001 | Capot Supérieur pour Compact435008 | Carte Studer C4000-48-50Hz-Std435009 | Carte Studer C4000-48-60Hz-(32/36)435015 | Carte Studer HPC5048435016 | Carte Studer PB 5048-36620021 | Pompe imer.0.9kW SQF2.5-2620061 | POMPE IMER. 2.2KW3X230V SP5A-21830030 | Relais shrack 2x25A 48Vcc830110 | Relais mercure 35NC-12V830112 | Relais mercure 35NC-24V830114 | Relais mercure 35NC-48V854052 | EEPROM M27C512856021 | Relais Statique BP-RLS V2863002 | Touch reader black863003 | Touch reader blue863004 | Touch reader yellow863005 | Touch reader red863006 | Touch reader greenF242300 | Carte BP-RIS221011 | Automate µFct 24VS221012 | Automate µFct 48VS240010 | Boîtier com. µTransfertS402003 | Ond sinus SI648 600W/48VS404020 | Carte Studer SITP 1624-50HzS404037 | Carte Studer SITP 2324-37-50HzS404055 | Petit Transfo SITP 12VS404056 | Petit Transfo SITP 24VS404057 | Petit Transfo SITP 48VS404060 | Transfo ond SI 23xxS404061 | Transfo ond SI 2324 + TPS404062 | Transfo ond C2600-24S404063 | Transfo ond SITP3548S404064 | Transfo ond C4000-48S404065 | Plaque arrière ond SI2324S404066 | Plaque avant ond SI2324S404067 | Plaque arrière SI2324 NOIRS404068 | Plaque avant SI2324 NOIRS404069 | Plaque arr SITP1248 NOIRS404070 | Plaque Avant SITP1248 NOIRS404071 | Boitier C2600-24 StuderS404071 | Boitier C2600-24 StuderS435010 | Carte Studer C2600-24-50Hz-StdS435011 | Carte Studer C2600-24-50Hz-(32/36)S435012 | Carte Studer C4000-48-50Hz-(32/36)S435036 | Carte Studer Display CXXXX-ApexS435038 | Carte Studer Display CXXXX-StdS435070 | Capot inférieur Ond CompactS435070 | Capot inférieur Ond CompactS435071 | Capot inférieur + plaque av Ond SIS435071 | Capot inférieur + plaque av Ond SIS435074 | Mousse pour capot CIP22 (S435075)S435075 | SAV Capot sup + Mouss C4000-48S435076 | Plaque arrière C4000-48S435077 | Plaque Avant C4000-48S435078 | Plaque arrière SITP2324S435079 | Plaque arrière SITP1224S435080 | Plaque arrière C2600-24S435111 | Carte Studer C2600-24-60Hz-(32/36)S806150 | Guide carte alu ond STUDER",
+      "id": "A-60",
+      "severity": "Normal",
+      "site": "TD419001 | ABB T",
+      "status": "Active",
+      "timestamp": 1759670833443,
+      "type": "Inconnu"
+    }
+  ],
+  "interventions": [
+    {
+      "alarme": "Défaut onduleur Huawei",
+      "categorie": "Maintenance Curative",
+      "descriptions": [
+        "Intervention pour remise en service onduleur Huawei.",
+        "Intervention pour diagnostique onduleur Huawei",
+        "Intervention pour diagnostique et réparation onduleur Hauwei"
+      ],
+      "echeance": "J+7",
+      "id": 1,
+      "severite": "Normal",
+      "titre": "DIAG_ONDL"
+    },
+    {
+      "alarme": "Alerte voisinage",
+      "categorie": "Maintenance Curative",
+      "descriptions": [
+        "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+        "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+        "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+      ],
+      "echeance": "J+7",
+      "id": 2,
+      "severite": "Normal",
+      "titre": "DIAG_SITE"
+    },
+    {
+      "alarme": "Cumul X jours glissants vs Prévisionnel",
+      "categorie": "Maintenance Curative",
+      "descriptions": [
+        "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+        "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+        "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+      ],
+      "echeance": "J+7",
+      "id": 3,
+      "severite": "Normal",
+      "titre": "DIAG_SITE"
+    },
+    {
+      "alarme": "Production vs. production simulée",
+      "categorie": "Maintenance Curative",
+      "descriptions": [
+        "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+        "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+        "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+      ],
+      "echeance": "J+7",
+      "id": 4,
+      "severite": "Normal",
+      "titre": "DIAG_SITE"
+    },
+    {
+      "alarme": "Alerte voisinage - performances du site inférieure à celle des sites voisins",
+      "categorie": "Maintenance Curative",
+      "descriptions": [
+        "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+        "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+        "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+      ],
+      "echeance": "J+7",
+      "id": 5,
+      "severite": "Normal",
+      "titre": "DIAG_SITE"
+    }
+  ],
+  "domStructure": {
+    "labels": [
+      "",
+      "",
+      "Base",
+      "Voisinage",
+      "Fonctionnement normal",
+      "Fonctionnement perturbé",
+      "Fonctionnement critique",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "selects": [
+      {
+        "id": "",
+        "name": "",
+        "options": [
+          "Critique",
+          "Attention",
+          "Normale",
+          "Faible"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "options": []
+      },
+      {
+        "id": "",
+        "name": "",
+        "options": [
+          "Anémomètre",
+          "Autre",
+          "Batterie",
+          "Boite de jonction",
+          "Branche",
+          "Capteur d'encrassement",
+          "Capteur de charge",
+          "Capteur de rayonnement",
+          "Champ solaire",
+          "Compteur"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "options": [
+          "Brouillon",
+          "Validé"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "options": [
+          "Facture",
+          "Avoir"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "options": [
+          "Critique",
+          "Attention",
+          "Normale",
+          "Faible"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "options": [
+          "Priorité basse",
+          "Présence de données",
+          "Attente diag",
+          "Priorité moyenne",
+          "Echec de diag",
+          "Pas de données",
+          "Priorité haute"
+        ]
+      },
+      {
+        "id": "",
+        "name": "",
+        "options": [
+          "Anémomètre",
+          "Autre",
+          "Batterie",
+          "Boite de jonction",
+          "Branche",
+          "Capteur d'encrassement",
+          "Capteur de charge",
+          "Capteur de rayonnement",
+          "Champ solaire",
+          "Compteur"
+        ]
+      },
+      {
+        "id": "gwt-uid-33",
+        "name": "",
+        "options": [
+          "-",
+          "Ouvert",
+          "Fermé"
+        ]
+      },
+      {
+        "id": "gwt-uid-34",
+        "name": "",
+        "options": [
+          "-",
+          "Apex Antilles",
+          "Apex Réunion",
+          "Apex_7_U",
+          "Autoconso_U",
+          "ECO100_U",
+          "Eco_Apex_4_U",
+          "EPSA_U",
+          "Exploitation APEX",
+          "JPEE_U"
+        ]
+      },
+      {
+        "id": "gwt-uid-35",
+        "name": "",
+        "options": [
+          "-",
+          "Critique",
+          "Attention",
+          "Normale",
+          "Faible"
+        ]
+      },
+      {
+        "id": "gwt-uid-39",
+        "name": "",
+        "options": [
+          "-",
+          "Priorité basse",
+          "Présence de données",
+          "Attente diag",
+          "Priorité moyenne",
+          "Echec de diag",
+          "Pas de données",
+          "Priorité haute"
+        ]
+      },
+      {
+        "id": "gwt-uid-2989",
+        "name": "",
+        "options": [
+          "Sogetrel",
+          "SEE MARTINIQUE",
+          "SEE REUNION"
+        ]
+      },
+      {
+        "id": "gwt-uid-2991",
+        "name": "",
+        "options": [
+          "-",
+          "Apex Antilles",
+          "Apex Réunion",
+          "Apex_7_U",
+          "Autoconso_U",
+          "ECO100_U",
+          "Eco_Apex_4_U",
+          "EPSA_U",
+          "Exploitation APEX",
+          "JPEE_U"
+        ]
+      },
+      {
+        "id": "gwt-uid-2992",
+        "name": "",
+        "options": [
+          "-",
+          "Nouveau",
+          "Assigné",
+          "Accepté",
+          "Refusé",
+          "Terminé",
+          "Validé",
+          "Fermé",
+          "Retourné",
+          "Annulé"
+        ]
+      },
+      {
+        "id": "gwt-uid-2993",
+        "name": "",
+        "options": [
+          "-",
+          "Urgent",
+          "Haut",
+          "Normal",
+          "Bas"
+        ]
+      },
+      {
+        "id": "gwt-uid-2995",
+        "name": "",
+        "options": [
+          "-",
+          "Autre",
+          "Construction",
+          "Contrôle Règlementaire",
+          "Maintenance Curative",
+          "Maintenance Préventive",
+          "Nettoyage des modules",
+          "Relevé de compteurs",
+          "Remplacement des batteries",
+          "Visite Service Exploitation"
+        ]
+      },
+      {
+        "id": "gwt-uid-3006",
+        "name": "",
+        "options": [
+          "-",
+          "a.henry@apexenergies.fr [Aurélien HENRY]",
+          "a.jeanjean@apexenergies.fr [Antoine Jeanjean]",
+          "a.serieys@apexenergies.fr [Adrien Serieys]",
+          "a.valette@apexenergies.fr [Alexis Valette]",
+          "adrien.bourgeat@vergnaudfrance.com [Adrien Bourgeat]",
+          "c.lacombe@lgenergies.com [Christophe LACOMBE]",
+          "clement.valade@nexhos.com [Clément VALADE]",
+          "d.lemaire@lgenergies.com [Denis Lemaire]",
+          "d.mao@apexenergies.fr [David Mao]"
+        ]
+      },
+      {
+        "id": "gwt-uid-3062",
+        "name": "",
+        "options": [
+          "-",
+          "Autre",
+          "Colmatage fuite en toîture",
+          "Contrôle des cartes filtres Fronius",
+          "Diagnostic du site",
+          "Diagnostic onduleur",
+          "Diagnostic RISO",
+          "Diagnostic/réparation string HS",
+          "Dépannage automate poste HTA",
+          "Dépannage cellule HTA"
+        ]
+      },
+      {
+        "id": "gwt-uid-3064",
+        "name": "",
+        "options": [
+          "-",
+          "Alexis test HTA",
+          "Analyse toiture",
+          "Commissioning SOL",
+          "Contrôle HSE - Exploitation",
+          "Fiche de contrôle tension/intensité CC",
+          "Gamme LT BT Complet DOM",
+          "Gamme LT DOM",
+          "Gamme Maintenance BT (Drone)",
+          "Gamme Maintenance BT Complète V2"
+        ]
+      },
+      {
+        "id": "gwt-uid-3069",
+        "name": "",
+        "options": [
+          "-",
+          "S415053 | Couvercle Ond",
+          "419001 | ABB Trio 20",
+          "415120 | Vent. FRONIUS  43",
+          "415123 | Fusible 41",
+          "415121 | Power PCB 19B  4",
+          "415122 | Fan Control PCB  4",
+          "113002 | Appoint élec. 3",
+          "620022 | Pompe imer.0.9kW SQF1",
+          "S410072 | Carte Sens-i  D-PCB-0"
+        ]
+      },
+      {
+        "id": "gwt-uid-3070",
+        "name": "",
+        "options": [
+          "-",
+          "Dépôt Central Développement",
+          "Dépôt Central Montpellier",
+          "Dépôt Igener",
+          "Guadeloupe Ag Développement",
+          "Guadeloupe APEX",
+          "Guadeloupe E-COMPAGNIE",
+          "Guyane CLINIC'INFO",
+          "Martinique SUNELEK APEX",
+          "Métropole SPV Bonnat"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      },
+      {
+        "id": "",
+        "name": "",
+        "value": "",
+        "readOnly": false
+      }
+    ]
+  }
+}

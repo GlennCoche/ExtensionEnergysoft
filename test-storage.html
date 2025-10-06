@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Storage - Auto Form PV Ultimate</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+        
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .status {
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+        
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Test Storage - Auto Form PV Ultimate</h1>
+        <p>Vérification du contenu du storage de l'extension</p>
+        
+        <div>
+            <button class="btn" onclick="checkStorage()">📊 Vérifier Storage</button>
+            <button class="btn" onclick="clearStorage()">🗑️ Vider Storage</button>
+            <button class="btn" onclick="loadDefaultData()">📥 Charger Données</button>
+        </div>
+        
+        <div id="status"></div>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script>
+        function showStatus(message, type = 'info') {
+            const statusDiv = document.getElementById('status');
+            statusDiv.className = `status ${type}`;
+            statusDiv.textContent = message;
+        }
+        
+        function showResult(data) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = JSON.stringify(data, null, 2);
+        }
+        
+        async function checkStorage() {
+            showStatus('Vérification du storage...', 'info');
+            
+            try {
+                const result = await chrome.storage.local.get(null);
+                
+                const summary = {
+                    interventionsData: {
+                        exists: !!result.interventionsData,
+                        count: result.interventionsData ? result.interventionsData.length : 0,
+                        firstItem: result.interventionsData ? result.interventionsData[0] : null
+                    },
+                    currentAlarms: {
+                        exists: !!result.currentAlarms,
+                        count: result.currentAlarms ? result.currentAlarms.length : 0
+                    },
+                    extensionSettings: {
+                        exists: !!result.extensionSettings
+                    },
+                    importCount: result.importCount,
+                    lastImport: result.lastImport,
+                    allKeys: Object.keys(result)
+                };
+                
+                showResult(summary);
+                
+                if (result.interventionsData && result.interventionsData.length > 0) {
+                    showStatus(`✅ ${result.interventionsData.length} interventions trouvées dans le storage !`, 'success');
+                } else {
+                    showStatus('❌ Aucune donnée d\'intervention trouvée dans le storage', 'error');
+                }
+            } catch (error) {
+                showStatus(`❌ Erreur: ${error.message}`, 'error');
+                showResult({error: error.message});
+            }
+        }
+        
+        async function clearStorage() {
+            if (!confirm('Êtes-vous sûr de vouloir vider le storage ?')) {
+                return;
+            }
+            
+            showStatus('Suppression des données...', 'info');
+            
+            try {
+                await chrome.storage.local.clear();
+                showStatus('✅ Storage vidé avec succès', 'success');
+                showResult({message: 'Storage vidé'});
+            } catch (error) {
+                showStatus(`❌ Erreur: ${error.message}`, 'error');
+            }
+        }
+        
+        async function loadDefaultData() {
+            showStatus('Chargement des données par défaut...', 'info');
+            
+            try {
+                const response = await fetch('./config_interventions_export.json');
+                const data = await response.json();
+                
+                await chrome.storage.local.set({
+                    interventionsData: data,
+                    importCount: data.length,
+                    lastImport: new Date().toISOString()
+                });
+                
+                showStatus(`✅ ${data.length} interventions chargées avec succès !`, 'success');
+                showResult({
+                    message: 'Données chargées',
+                    count: data.length,
+                    timestamp: new Date().toISOString()
+                });
+            } catch (error) {
+                showStatus(`❌ Erreur: ${error.message}`, 'error');
+                showResult({error: error.message});
+            }
+        }
+        
+        // Vérifier automatiquement au chargement
+        window.addEventListener('DOMContentLoaded', checkStorage);
+    </script>
+</body>
+</html>

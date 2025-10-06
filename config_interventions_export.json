@@ -1,0 +1,951 @@
+[
+  {
+    "alarme": "Défaut onduleur Huawei",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Intervention pour remise en service onduleur Huawei.",
+      "Intervention pour diagnostique onduleur Huawei",
+      "Intervention pour diagnostique et réparation onduleur Hauwei"
+    ],
+    "echeance": "J+7",
+    "id": 1,
+    "severite": "Normal",
+    "titre": "DIAG_ONDL"
+  },
+  {
+    "alarme": "Alerte voisinage",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+      "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+      "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+    ],
+    "echeance": "J+7",
+    "id": 2,
+    "severite": "Normal",
+    "titre": "DIAG_SITE"
+  },
+  {
+    "alarme": "Cumul X jours glissants vs Prévisionnel",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+      "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+      "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+    ],
+    "echeance": "J+7",
+    "id": 3,
+    "severite": "Normal",
+    "titre": "DIAG_SITE"
+  },
+  {
+    "alarme": "Production vs. production simulée",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+      "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+      "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+    ],
+    "echeance": "J+7",
+    "id": 4,
+    "severite": "Normal",
+    "titre": "DIAG_SITE"
+  },
+  {
+    "alarme": "Alerte voisinage - performances du site inférieure à celle des sites voisins",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+      "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+      "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+    ],
+    "echeance": "J+7",
+    "id": 5,
+    "severite": "Normal",
+    "titre": "DIAG_SITE"
+  },
+  {
+    "alarme": "Production vs. production modélisée",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+      "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+      "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+    ],
+    "echeance": "J+7",
+    "id": 6,
+    "severite": "Normal",
+    "titre": "DIAG_SITE"
+  },
+  {
+    "alarme": "Webdyn hors tension",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site découplé. Intervention pour réarmement AGCP avec prises des mesures Tensions AC.",
+      "",
+      ""
+    ],
+    "echeance": "J+ 3",
+    "id": 7,
+    "severite": "Urgent",
+    "titre": "REARM_AGCP"
+  },
+  {
+    "alarme": "Compteur ENEDIS improductif",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site découplé. Intervention pour réarmement AGCP avec prises des mesures Tensions AC.",
+      "",
+      ""
+    ],
+    "echeance": "J+ 3",
+    "id": 8,
+    "severite": "Urgent",
+    "titre": "REARM_AGCP"
+  },
+  {
+    "alarme": "Compteur ENEDIS à 0",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site découplé. Intervention pour réarmement AGCP avec prises des mesures Tensions AC.",
+      "",
+      ""
+    ],
+    "echeance": "J+ 3",
+    "id": 9,
+    "severite": "Urgent",
+    "titre": "REARM_AGCP"
+  },
+  {
+    "alarme": "Pas de données site à J-3",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site découplé. Intervention pour réarmement AGCP avec prises des mesures Tensions AC.",
+      "",
+      ""
+    ],
+    "echeance": "J+ 3",
+    "id": 10,
+    "severite": "Urgent",
+    "titre": "REARM_AGCP"
+  },
+  {
+    "alarme": "Pas de données site",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site découplé. Intervention pour réarmement AGCP avec prises des mesures Tensions AC.",
+      "",
+      ""
+    ],
+    "echeance": "J+ 3",
+    "id": 11,
+    "severite": "Urgent",
+    "titre": "REARM_AGCP"
+  },
+  {
+    "alarme": "Production vs. irradiation solaire",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site découplé. Intervention pour réarmement AGCP avec prises des mesures Tensions AC.",
+      "",
+      ""
+    ],
+    "echeance": "J+ 3",
+    "id": 12,
+    "severite": "Urgent",
+    "titre": "REARM_AGCP"
+  },
+  {
+    "alarme": "Production vs. heures du soleil au fil de l'eau",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Site découplé. Intervention pour réarmement AGCP avec prises des mesures Tensions AC.",
+      "",
+      ""
+    ],
+    "echeance": "J+ 3",
+    "id": 13,
+    "severite": "Urgent",
+    "titre": "REARM_AGCP"
+  },
+  {
+    "alarme": "Défaut de transmission d'un équipement",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Disjoncteur onduleur ouvert. Intervention pour réarmement disjoncteur onduleur.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 14,
+    "severite": "Haut",
+    "titre": "REARM_DISJ_ONDL"
+  },
+  {
+    "alarme": "Défaut de transmission d'un équipement (délai)",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Disjoncteur onduleur ouvert. Intervention pour réarmement disjoncteur onduleur.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 15,
+    "severite": "Haut",
+    "titre": "REARM_DISJ_ONDL"
+  },
+  {
+    "alarme": "Pas de données Rtone",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Perte de communication avec le site. Intervention pour redémarrage de la passerelle de communication.",
+      "",
+      ""
+    ],
+    "echeance": "J+7",
+    "id": 16,
+    "severite": "Normal",
+    "titre": "REBOOT_LOGG"
+  },
+  {
+    "alarme": "Pas de données datalogger",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Perte de communication avec le site. Intervention pour redémarrage de la passerelle de communication.",
+      "",
+      ""
+    ],
+    "echeance": "J+7",
+    "id": 17,
+    "severite": "Normal",
+    "titre": "REBOOT_LOGG"
+  },
+  {
+    "alarme": "Défaut de transmission du boîtier (délai)",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Perte de communication avec le site. Intervention pour redémarrage de la passerelle de communication.",
+      "",
+      ""
+    ],
+    "echeance": "J+7",
+    "id": 18,
+    "severite": "Normal",
+    "titre": "REBOOT_LOGG"
+  },
+  {
+    "alarme": "WebdynSUNPM Agrégateur hors-service",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Perte de communication avec le site. Intervention pour redémarrage de la passerelle de communication.",
+      "",
+      ""
+    ],
+    "echeance": "J+7",
+    "id": 19,
+    "severite": "Normal",
+    "titre": "REBOOT_LOGG"
+  },
+  {
+    "alarme": "Dépassement de puissance de raccordement",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Réglage de la puissance active maximum des onduleurs",
+      "",
+      ""
+    ],
+    "echeance": "J+7",
+    "id": 20,
+    "severite": "Normal",
+    "titre": "REGL_ONDL"
+  },
+  {
+    "alarme": "Dépassement puissance de raccordement en injection",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Réglage de la puissance active maximum des onduleurs",
+      "",
+      ""
+    ],
+    "echeance": "J+7",
+    "id": 21,
+    "severite": "Normal",
+    "titre": "REGL_ONDL"
+  },
+  {
+    "alarme": "Dépassement puissance de raccordement",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Réglage de la puissance active maximum des onduleurs",
+      "",
+      ""
+    ],
+    "echeance": "J+7",
+    "id": 22,
+    "severite": "Normal",
+    "titre": "REGL_ONDL"
+  },
+  {
+    "alarme": "Défaut onduleur Fronius",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 23,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNSPEC ERROR",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 24,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "Défaut onduleur SMA",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 25,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SOFAR SOLAR ERROR",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 26,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "GOODWE ERROR",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 27,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNGROW ERROR",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 28,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "HUAWEI ERROR",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 29,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "Branche HS",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Intervention pour réparation string HS",
+      "Intervention pour réparation string ou MPPT HS",
+      "Diagnostique pour réparation string ou MPPT HS."
+    ],
+    "echeance": "J + 10",
+    "id": 30,
+    "severite": "Bas",
+    "titre": "REPAR_STRG"
+  },
+  {
+    "alarme": "Branche(s) HS",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Intervention pour réparation string HS",
+      "Intervention pour réparation string ou MPPT HS",
+      "Diagnostique pour réparation string ou MPPT HS."
+    ],
+    "echeance": "J + 10",
+    "id": 31,
+    "severite": "Bas",
+    "titre": "REPAR_STRG"
+  },
+  {
+    "alarme": "Déséquilibre MPPT horaire",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Intervention pour réparation string HS",
+      "Intervention pour réparation string ou MPPT HS",
+      "Diagnostique pour réparation string ou MPPT HS."
+    ],
+    "echeance": "J + 10",
+    "id": 32,
+    "severite": "Bas",
+    "titre": "REPAR_STRG"
+  },
+  {
+    "alarme": "Déséquilibre MPPT journalier",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Intervention pour réparation string HS",
+      "Intervention pour réparation string ou MPPT HS",
+      "Diagnostique pour réparation string ou MPPT HS."
+    ],
+    "echeance": "J + 10",
+    "id": 33,
+    "severite": "Bas",
+    "titre": "REPAR_STRG"
+  },
+  {
+    "alarme": "Défaut onduleur ABB [E018]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [E018] Ground Fault.\nLe code E018 sur un onduleur ABB (Aurora/Power-One) correspond à un défaut d’isolement : un courant de fuite important a été détecté sur le circuit DC PV. L’onduleur a activé sa protection de mise à la terre (GFI). Coupez immédiatement l’onduleur (sectionnez AC et DC) et mesurez la résistance d’isolement du champ PV avec un mégohmmètre entre les conducteurs PV (+ et - court-circuités ensemble) et la terre. Si la valeur mesurée est < 1 MΩ, c’est confirmation d’un défaut d’isolement sur les panneaux ou le câblage : un technicien doit inspecter chaque string pour trouver le composant à la terre et l’éliminer (remplacement du module ou réparation de câble). Si la valeur est > 1 MΩ et pourtant l’alarme reste présente, le capteur de fuite de l’onduleur peut être en défaut ; dans ce cas il faudra contacter le support ABB/Fimer. Après correction du défaut (fuite à la terre éliminée), rebrancher et rallumer l’onduleur pour voir si l’erreur E018 a disparu. Nettoyer la string si elle est plus sale (dépôts localisés). Si un module est soupçonné, le tester individuellement et le remplacer si nécessaire. Après correction, les productions journalières par MPPT devraient redevenir équilibrées. Il est conseillé de suivre les jours suivants sur le monitoring pour confirmer que le déséquilibre est résolu.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "Défaut onduleur SMA RS [dZac-Bfr]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Défaut onduleur SMA RS [dZac-Bfr] : Ce code indique que les variations d’impédance du réseau au point de raccordement sont trop élevées, d’où le message interne dZac-Bfr. En clair, l’onduleur mesure un saut d’impédance (Zac) anormal du réseau et s’est déconnecté par sécurité. Solution : faire vérifier par votre installateur l’impédance du réseau et notamment les connexions (serrage des borniers, câbles) sur le point de livraison. Si le phénomène se reproduit souvent, l’installateur peut demander à Enedis l’autorisation d’élargir le seuil d’impédance admissible dans la configuration de l’onduleur. Ce réglage (paramètre dZac-Max sur SMA) ne peut être modifié qu’avec accord du gestionnaire de réseau, car il touche aux protections de découplage. En parallèle, il convient de vérifier qu’aucune connexion desserrée ou qu’aucun câble sous-dimensionné ne contribue à élever l’impédance mesurée.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "Défaut onduleur SMA RS [LeakRis]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [LeakRis] Résistance d'isolement.\nCe code (LeakRis) correspond à un défaut d’isolement sur l’installation PV vu par un onduleur SMA. L’onduleur indique que la résistance d’isolement Riso est trop faible par rapport au seuil requis. En pratique, cela signifie qu’il y a probablement une fuite à la terre (un panneau ou un câble présentant un défaut d’isolement). Il faut mettre hors tension l’onduleur et faire contrôler l’installation par un technicien qualifié : mesurer l’isolement entre les strings PV et la terre, chercher un éventuel court-circuit à la terre. Une fois le défaut localisé (par ex. un câble endommagé touchant la structure métallique), réparer ou remplacer l’élément incriminé et vérifier que l’isolement revient à une valeur sûre. Après correction, l’onduleur SMA pourra être rallumé; l’alarme LeakRis devrait alors disparaître, confirmant que la résistance d’isolement est revenue au-dessus du seuil.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "Défaut onduleur SMA RS [NoGri]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur.\nLe code NoGri signifie “No Grid” (absence de réseau). L’onduleur ne détecte plus de tension sur le réseau AC, comme cela se produit lors d’une coupure de courant ou d’un déclenchement de protection en amont. En conséquence, il s’est mis à l’arrêt pour sécurité (anti-îlotage). Pour rétablir la situation, il faut vérifier l’arrivée secteur : voir si le disjoncteur général ou un fusible a sauté, ou si Enedis a coupé le courant. Une fois le réseau de retour, l’onduleur se reconnectera automatiquement. Si le réseau est présent mais que l’erreur NoGri persiste, contrôler le disjoncteur AC de l’onduleur : s’il a sauté, le réenclencher. En clair, NoGri indique généralement une perte de tension réseau côté onduleur, donc la solution est de rétablir l’alimentation secteur de l’onduleur pour qu’il reprenne sa production.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "Défaut onduleur SMA RS [S1]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Défaut onduleur SMA RS : Le code S1 sur un onduleur SMA correspond à une erreur interne non détaillée (dite niveau S1). L’onduleur s’est mis en défaut pour un problème qu’il ne peut préciser (par exemple une incohérence logicielle ou un sous-système défaillant). Dans ce cas, SMA préconise de tenter un redémarrage complet de l’onduleur : coupez son alimentation AC (disjoncteur OFF) ainsi que la DC, patientez quelques minutes puis rallumez le tout. Si l’erreur S1 disparaît, c’était un dysfonctionnement transitoire. En revanche, si l’alarme revient immédiatement, cela signifie que la défaillance est toujours présente : il faut alors faire intervenir le SAV SMA. Ce type de défaut peut nécessiter un retour atelier ou un échange de l’onduleur (beaucoup de codes internes SMA de niveau S1 aboutissent à un contact support). Ne pas insister en production prolongée tant que le code S1 est actif, car cela indique que l’appareil n’est pas pleinement fonctionnel.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "Défaut onduleur SMA RS [UpvMax]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur.\nDéfaut onduleur SMA RS [UpvMax] : UpvMax indique une surtension en entrée DC de l’onduleur (tension PV au-delà de la limite maximale). Ce cas de figure est critique car il peut endommager l’onduleur. Causes possibles : un nombre de panneaux en série trop élevé ou une température très basse augmentant la tension à vide au-delà du seuil. Mesures à prendre : Arrêtez immédiatement l’onduleur (sectionnez AC et DC). Vérifiez la configuration des strings PV : assurez-vous que la tension à vide de chaque chaîne ne dépasse pas la tension DC max de l’onduleur (s’il y a trop de modules en série, en réduire le nombre). Si la tension mesurée est effectivement au-dessus du maximum admissible, il faudra reconfigurer le champ PV (rediviser les strings) avant de rallumer l’onduleur. Si la tension semble normale, le déclenchement peut provenir d’un capteur défectueux ; néanmoins, il est prudent de contacter le support SMA dans tous les cas où UpvMax est survenu pour contrôle. Après correction (ou par temps moins froid), rebranchez l’onduleur : s’il ne détecte plus de surtension DC, l’alarme UpvMax sera levée.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "Défaut onduleur Sunspec [AC_UNDER_VOLT]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 40,
+    "severite": "Haut",
+    "titre": "REGL_ONDL"
+  },
+  {
+    "alarme": "Défaut onduleur Sunspec [GROUND_FAULT]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur.\nDéfaut onduleur Sunspec [GROUND_FAULT] : Ceci correspond à un défaut d’isolement à la terre détecté via Sunspec (équivalent à un Riso faible ou une fuite de courant DC). Autrement dit, l’onduleur a mesuré un courant de fuite vers la terre anormal sur le générateur PV et s’est arrêté pour sécurité. Il faut traiter cela comme un ground fault classique : couper immédiatement l’onduleur et ne le remettre en service qu’une fois le problème résolu. Inspectez le champ PV à la recherche d’une fuite à la terre : boîtes de jonction brûlées, câbles endommagés touchant le châssis, humidité dans un panneau, etc. Une mesure d’isolement au mégohmmètre aidera à localiser la chaîne fautive[34]. Réparez ou isolez la partie en défaut (remplacement du composant à l’origine du contact terre). Une fois cela fait, réenclenchez l’onduleur : si l’alarme GROUND_FAULT ne revient pas, c’est que la fuite de courant a disparu. Dans le cas contraire, ne pas insister et contacter le service technique du fabricant, car le défaut d’isolement persiste possiblement ailleurs ou le détecteur lui-même est en cause.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "Défaut onduleur Sunspec [HW_TEST_FAILURE]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Défaut onduleur Sunspec [HW_TEST_FAILURE] : Ce code indique un échec d’un autotest matériel interne de l’onduleur (HW self-test). En clair, l’appareil a détecté qu’un de ses composants ou circuits n’a pas passé la routine de test interne au démarrage[35]. Cela peut correspondre par exemple à un relais qui ne commute pas correctement, un capteur défectueux, etc. La première action est de redémarrer l’onduleur complètement (coupure AC + DC, attente quelques minutes, rallumage) pour voir si l’autotest passe au second essai[36]. Si l’alarme HW_TEST_FAILURE persiste, c’est qu’il y a un défaut matériel non réparable par simple reset : il faudra alors faire intervenir le constructeur ou un réparateur agréé. Très probablement, l’onduleur devra être réparé ou échangé (par ex. remplacement de la carte de contrôle si un circuit interne est défaillant). En attendant, l’onduleur restera hors service car il ne peut pas démarrer tant que l’autotest échoue.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "GOODWE ERROR [1024]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [1024] Ground I Failure. \nCeci correspond à un défaut d’isolement à la terre détecté via Sunspec (équivalent à un Riso faible ou une fuite de courant DC)[22]. Autrement dit, l’onduleur a mesuré un courant de fuite vers la terre anormal sur le générateur PV et s’est arrêté pour sécurité. Il faut traiter cela comme un ground fault classique : couper immédiatement l’onduleur et ne le remettre en service qu’une fois le problème résolu. Inspectez le champ PV à la recherche d’une fuite à la terre : boîtes de jonction brûlées, câbles endommagés touchant le châssis, humidité dans un panneau, etc. Une mesure d’isolement au mégohmmètre aidera à localiser la chaîne fautive[34]. Réparez ou isolez la partie en défaut (remplacement du composant à l’origine du contact terre). Une fois cela fait, réenclenchez l’onduleur : si l’alarme GROUND_FAULT ne revient pas, c’est que la fuite de courant a disparu. Dans le cas contraire, ne pas insister et contacter le service technique du fabricant, car le défaut d’isolement persiste possiblement ailleurs ou le détecteur lui-même est en cause.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "GOODWE ERROR [131072]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [131072] Vac Failure. \nCe code indique une anomalie de tension AC sur un onduleur GoodWe – typiquement, Vac Failure signifie que la tension du réseau est hors des limites admissibles[38]. Cela peut se produire si le réseau présente une surtension ou une sous-tension prolongée. En réponse, l’onduleur s’est découplé (protection anti-îlotage). Si le phénomène est momentané, l’onduleur se reconnectera une fois la tension revenue dans la plage. Si l’alarme est récurrente, il faut mesurer la tension secteur au point de livraison et la comparer aux seuils de l’onduleur. En cas de surtension fréquente, avertir le distributeur (Enedis) pour qu’il régule la tension, ou faire ajuster par un technicien le paramètre de surtension de l’onduleur (avec accord Enedis) pour le rendre moins sensible[39]. En cas de sous-tension chronique, même démarche : vérifier le câblage (pas de chute de tension excessive en ligne) et contacter le fournisseur d’électricité. Une fois la tension normalisée, l’onduleur GoodWe reprendra le service et l’erreur 131072 s’effacera.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "GOODWE ERROR [2]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [2] AC HCT Check Failure.\nLe code 2 sur GoodWe correspond à un échec du contrôle du capteur de courant AC (AC HCT Failure)[40]. L’onduleur n’a pas réussi son test interne du capteur de courant de sortie, possiblement à cause d’un défaut de ce capteur. Cela peut traduire un problème matériel interne. Tentez un redémarrage de l’onduleur pour voir si le self-test passe au second essai. Si l’erreur [2] persiste, aucune action utilisateur ne peut la résoudre : il faut solliciter le SAV GoodWe. Très probablement, le capteur de courant (ou la carte de mesure associée) est défectueux et devra être remplacé par un technicien. Ne pas forcer l’onduleur à produire tant que ce défaut n’est pas levé, car le capteur de courant AC est un élément de sécurité.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "GOODWE ERROR [262144]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [262144] Isolation Failure(or LLC Bus High for HF).\nCe code indique une résistance d’isolement trop basse détectée par l’onduleur GoodWe (Isolation Failure)[41]. C’est l’équivalent d’un défaut d’isolement Riso faible. Par mesure de sécurité, l’onduleur a stoppé l’injection. La procédure est semblable à celle des autres onduleurs : contrôler l’isolement du champ PV avec un mégohmmètre. Si < 1 MΩ, identifier la/les chaîne(s) en défaut et retirer la cause (panneau endommagé, câble à la terre, humidité)[23]. Une fois le défaut corrigé, relancer l’onduleur GoodWe : l’erreur devrait disparaître d’elle-même si l’isolement est revenu à la normale. Si malgré tout le code 262144 reste actif alors que l’isolement mesuré est bon, il peut s’agir d’une défaillance du circuit de mesure interne : faire appel au support GoodWe pour un diagnostic approfondi de l’appareil.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "GOODWE ERROR [32]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut.  Alarme code erreur [32] DC Bus Low.\nCe code correspond à une tension du bus DC interne trop basse sur l’onduleur GoodWe (DC Bus Low). Cela peut survenir lors d’un manque de production PV ou d’un dysfonctionnement du circuit élévateur de tension. Parfois, un bus DC low peut être passager (lorsque l’ensoleillement est très faible, l’onduleur tente de démarrer mais la tension retombe)[42]. Si l’erreur est persistante en pleine production, cela indique possiblement un défaut interne (ex. condensateur de bus ou convertisseur DC/DC défaillant). Solution : Essayez d’abord un redémarrage de l’onduleur, surtout si l’alarme s’est produite dans des conditions inhabituelles (ex. début/fin de journée)[43]. Si le défaut persiste en plein soleil, contactez le support GoodWe car cela pourrait nécessiter un remplacement de composant interne. Également, vérifiez que la configuration PV correspond bien à la plage MPPT de l’onduleur (une tension PV trop basse parce qu’il manque des modules en série peut causer un bus DC faible). En résumé, [32] est souvent lié à un souci interne ou de dimensionnement : ne pas hésiter à solliciter un technicien.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "GOODWE ERROR [33554432]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [33554432] Relay Check Failure.\nCe code indique un échec du test du relais interne de couplage réseau (Relay Self-check)[44]. L’onduleur GoodWe réalise à chaque démarrage un contrôle de son relais de découplage AC, et ici le test n’a pas été concluant. Cela peut être dû à un relais collé ou usé. Étapes : Couper puis remettre sous tension l’onduleur pour voir si le relais réussit son autotest au redémarrage. Si l’erreur [33554432] réapparaît, il s’agit vraisemblablement d’un relais défectueux. Par mesure de sécurité, l’onduleur ne se connectera plus au réseau tant que le relais n’aura pas été remplacé. Il faudra donc contacter un centre de service GoodWe pour procéder à la remplacement du relais ou de la carte de puissance associée. Ce type de réparation nécessite l’expertise du fabricant : n’essayez pas de forcer l’onduleur en production, le relais de découplage est un organe de sécurité essentiel.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "GOODWE ERROR [4096]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [4096] Internal Fan Failure(Back-Up Over Load for ES).\nCe code signale une panne du ventilateur interne de l’onduleur GoodWe (ou surcharge thermique du circuit de secours sur modèles hybrides ES)[45][46]. L’onduleur a détecté que son ventilateur de refroidissement ne fonctionne plus correctement. Conséquences : l’appareil risque la surchauffe s’il continue à produire à pleine puissance sans ventilation. Solution : Inspectez le ventilateur de l’onduleur : vérifiez qu’aucune obstruction (poussière, débris) ne bloque ses pales[47]. Nettoyez-le délicatement à l’air comprimé ou à la brosse douce. Si le ventilateur ne tourne toujours pas (bruit anormal ou blocage), il est probablement hors d’usage et doit être remplacé. Ce remplacement implique d’ouvrir l’onduleur ; faites appel à un technicien agréé pour cela. En attendant, l’onduleur peut réduire sa puissance voire se mettre en erreur en cas de surchauffe. Après installation d’un nouveau ventilateur ou suppression de la cause de blocage, rallumez l’onduleur : l’erreur [4096] devrait se résoudre d’elle-même lorsque le ventilateur fonctionnera à nouveau.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "GOODWE ERROR [524288]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [524288] DC Injection High.\nCe code correspond à une trop forte composante continue injectée dans le courant alternatif (DC injection élevée)[18]. Normalement, l’onduleur filtre le courant continu avant l’injection réseau, mais ici un offset DC excessif a été détecté (>0,5% du courant nominal). Cela peut provenir d’une défaillance du filtre de sortie (pont H ou condensateurs). Procédure : Tentez un redémarrage de l’onduleur afin de voir si le défaut se résorbe (parfois, de la composante DC transitoire peut déclencher l’alarme et disparaître ensuite). Si l’alarme revient régulièrement, c’est vraisemblablement un problème matériel interne. Il est alors nécessaire de contacter le support GoodWe. L’onduleur pourrait être mis hors service par sécurité jusqu’à résolution. Un technicien vérifiera le circuit de filtrage ; en cas de condensateur ou d’IGBT défectueux laissant passer du DC, une réparation ou un échange de l’onduleur sera effectué. Ne laissez pas l’onduleur injecter du DC prolongé sur le réseau, cette alarme est là pour protéger le transformateur du réseau et l’équipement utilisateur.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "GOODWE ERROR [536870912]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [536870912] Fac Failure.\nCe code indique un problème de fréquence réseau hors limites (Fac Failure = fréquence AC hors plage)[49]. L’onduleur GoodWe a constaté que la fréquence du réseau était soit trop élevée, soit trop basse par rapport aux réglages. En cas de micro-dérive de fréquence (par ex. 50,5 Hz en pleine journée), l’onduleur se découple puis se recouple quand la fréquence redevient normale. Si cette erreur persiste, plusieurs pistes : (1) vérifier que le paramètre de fréquence de coupure dans l’onduleur est bien conforme au norme locale (50,2 Hz généralement). (2) Si le réseau local est instable (fréquence oscillante), contacter le distributeur d’électricité. (3) Si l’onduleur est paramétré sur un mauvais pays/réseau, corriger le réglage de pays pour qu’il utilise les bonnes limites de fréquence. Souvent, un redémarrage de l’onduleur après une vérification des paramètres suffit à le recoupler. Si l’alarme Fac Failure continue de s’afficher malgré une fréquence réseau apparemment normale, faites appel au support GoodWe car il pourrait s’agir d’un défaut du module de mesure de fréquence. En temps normal, dès que la fréquence rentre dans la plage tolérée, l’onduleur reprend la production automatiquement.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "HUAWEI ERROR [2012]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Alarm Name : String current backfeed\n\nPossible Cause → \n1. Seuls quelques modules PV sont connectés en série dans la chaîne PV. Par conséquent, la tension terminale est inférieure à celle des autres chaînes PV.\n2. Une polarité inversée se produit dans la chaîne.\n\nSuggestion →\n1. Vérifiez si le nombre de modules PV connectés en série dans cette chaîne est inférieur à celui des autres chaînes PV connectées en parallèle.\n2. Si oui, attendez que le courant de la chaîne PV tombe en dessous de 0,5 A, mettez l’interrupteur CC sur OFF et ajustez le nombre de modules PV dans la chaîne.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "HUAWEI ERROR [2021]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Alarm Name : AFCI self-check failure\n\nPossible Cause → L’autotest du module AFCI a échoué.\n\nSuggestion →\nÉteignez les interrupteurs AC et DC, attendez 5 minutes, puis rallumez-les. Si la panne persiste, contactez votre revendeur ou le support technique.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "HUAWEI ERROR [2032]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Alarm Name : Grid Failure\n\nPossible Cause →\n1. Panne du réseau électrique.\n2. Le circuit AC est déconnecté ou le disjoncteur AC est sur OFF.\n\nSuggestion →\n1. Vérifiez que la tension AC est normale.\n2. Vérifiez que le câble d’alimentation AC est bien connecté et que l’interrupteur AC est sur ON.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "HUAWEI ERROR [2033]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Alarm Name : Grid Undervoltage\n\nPossible Cause → \nLa tension du réseau est inférieure au seuil bas ou la durée de la basse tension a dépassé la valeur spécifiée par la protection LVRT.\n\nSuggestion →\n1. Si l’alarme apparaît occasionnellement, cela peut être dû à une anomalie temporaire du réseau ; le dispositif se rétablit automatiquement une fois la tension redevenue normale.\n2. Si l’alarme se produit fréquemment, vérifiez si la tension du réseau est dans la plage autorisée. Sinon, contactez l’opérateur du réseau local.\n3. Si le problème persiste, vérifiez la connexion entre l’interrupteur AC et le câble d’alimentation.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "HUAWEI ERROR [2034]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Alarm Name : Grid Overvoltage\n\nPossible Cause → \nLa tension de ligne du réseau dépasse le seuil supérieur.\n\nSuggestion →\n1. Si l’alarme apparaît occasionnellement, cela peut être dû à une surtension temporaire du réseau ; le dispositif se rétablit automatiquement lorsque le réseau redevient normal.\n2. Si l’alarme se produit fréquemment, vérifiez si la tension du réseau est dans la plage autorisée. Sinon, contactez l’opérateur du réseau.\n3. Si la surtension persiste, vérifiez les pics de tension du réseau et contactez l’opérateur local.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "HUAWEI ERROR [2039]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Alarm Name : AC Overcurrent\n\nPossible Cause →\nUne chute de tension importante ou un court-circuit sur le réseau a provoqué un courant alternatif transitoire supérieur au seuil maximal.\n\nSuggestion →\n1. Le dispositif surveille en temps réel les conditions externes. Après correction du défaut, il se rétablit automatiquement.\n2. Si l’alarme se répète souvent, vérifiez s’il existe un court-circuit AC. Si le défaut persiste, contactez le support technique.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "HUAWEI ERROR [2040]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Alarm Name : DC Component Overhigh\n\nPossible Cause → \nLa composante DC du courant alternatif dépasse le seuil supérieur.\n\nSuggestion →\n1. Le dispositif se rétablit automatiquement après la disparition du défaut.\n2. Si l’alarme se produit souvent, contactez le support technique.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "HUAWEI ERROR [2064]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Alarm Name : Device fault\n\nPossible Cause →\n1. Une défaillance majeure s’est produite sur le circuit interne du dispositif.\n2. Le circuit de démarrage AC ou le précharge DC est anormal, ou le bus DC commun est en court-circuit.\n\nSuggestion →\nÉteignez les interrupteurs AC et DC et attendez 5 minutes avant de les rallumer.\nSi le problème persiste :\nVérifiez si le bus DC commun est en court-circuit.\nSi ce n’est pas le cas, rallumez l’appareil.\nSi la défaillance continue, contactez le support technique.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "HUAWEI ERROR [2086]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Alarm Name : External Fan Abnormality\n\nPossible Cause → \nLe ventilateur externe est en court-circuit, l’alimentation est insuffisante ou le canal d’air est obstrué.\n\nSuggestion →\n1. Éteignez les interrupteurs AC et DC, vérifiez qu’ils fonctionnent correctement et retirez tout corps étranger autour du ventilateur.\n2. Réinstallez le ventilateur et rallumez les interrupteurs AC et DC.\n3. Si la panne persiste après le redémarrage, contactez le support technique.",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "priorite": "Normale",
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNGROW ERROR [10]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [10] Islanding",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 61,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNGROW ERROR [554]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [554] String 7 power module abnormal alarm",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 62,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNGROW ERROR [555]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 63,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNGROW ERROR [561]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [561] String 14 power module abnormal alarm",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 64,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNGROW ERROR [9]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Alarme code erreur [9] Grid under-frequency",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 65,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNSPEC ERROR [00020000]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 66,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNSPEC ERROR [AC_OVER_VOLT]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 67,
+    "severite": "Haut",
+    "titre": "REGL_ONDL"
+  },
+  {
+    "alarme": "SUNSPEC ERROR [AC_UNDER_VOLT]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 68,
+    "severite": "Haut",
+    "titre": "REGL_ONDL"
+  },
+  {
+    "alarme": "SUNSPEC ERROR [GROUND_FAULT]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 69,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNSPEC ERROR [HW_TEST_FAILURE]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 70,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNSPEC ERROR [OVER_FREQUENCY]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 71,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNSPEC ERROR [OVER_TEMP]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 72,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  },
+  {
+    "alarme": "SUNSPEC ERROR [UNDER_FREQUENCY]",
+    "categorie": "Maintenance Curative",
+    "descriptions": [
+      "Onduleur en défaut. Intervention pour diagnostique et redémarrage de l'onduleur",
+      "",
+      ""
+    ],
+    "echeance": "J + 5",
+    "id": 73,
+    "severite": "Haut",
+    "titre": "REPAR_ONDL"
+  }
+]

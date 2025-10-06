@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Import des Interventions - Auto Form PV Ultimate</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+        
+        .status {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+        
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        
+        .stats {
+            text-align: left;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .stats h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .stats ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .stats li {
+            padding: 5px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .stats li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔄 Import des Interventions</h1>
+        <p>Auto Form PV Ultimate v3.2.1</p>
+        
+        <div id="status" class="status info">
+            Prêt à importer les données...
+        </div>
+        
+        <button class="btn" onclick="importData()">
+            📥 Importer les Interventions
+        </button>
+        
+        <button class="btn" onclick="openOptions()">
+            ⚙️ Ouvrir les Paramètres
+        </button>
+        
+        <div id="stats" class="stats" style="display: none;">
+            <h3>📊 Statistiques Importées</h3>
+            <ul id="statsList"></ul>
+        </div>
+    </div>
+
+    <script>
+        // Données des interventions (copiées du fichier JSON)
+        const interventionsData = [
+            {
+                "alarme": "Défaut onduleur Huawei",
+                "categorie": "Maintenance Curative",
+                "descriptions": [
+                    "Intervention pour remise en service onduleur Huawei.",
+                    "Intervention pour diagnostique onduleur Huawei",
+                    "Intervention pour diagnostique et réparation onduleur Hauwei"
+                ],
+                "echeance": "J+7",
+                "id": 1,
+                "severite": "Normal",
+                "titre": "DIAG_ONDL"
+            },
+            {
+                "alarme": "Alerte voisinage",
+                "categorie": "Maintenance Curative",
+                "descriptions": [
+                    "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+                    "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+                    "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+                ],
+                "echeance": "J+7",
+                "id": 2,
+                "severite": "Normal",
+                "titre": "DIAG_SITE"
+            },
+            {
+                "alarme": "Cumul X jours glissants vs Prévisionnel",
+                "categorie": "Maintenance Curative",
+                "descriptions": [
+                    "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+                    "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+                    "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+                ],
+                "echeance": "J+7",
+                "id": 3,
+                "severite": "Normal",
+                "titre": "DIAG_SITE"
+            },
+            {
+                "alarme": "Production vs. production simulée",
+                "categorie": "Maintenance Curative",
+                "descriptions": [
+                    "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+                    "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+                    "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+                ],
+                "echeance": "J+7",
+                "id": 4,
+                "severite": "Normal",
+                "titre": "DIAG_SITE"
+            },
+            {
+                "alarme": "Alerte voisinage - performances du site inférieure à celle des sites voisins",
+                "categorie": "Maintenance Curative",
+                "descriptions": [
+                    "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+                    "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+                    "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+                ],
+                "echeance": "J+7",
+                "id": 5,
+                "severite": "Normal",
+                "titre": "DIAG_SITE"
+            },
+            {
+                "alarme": "Production vs. production modélisée",
+                "categorie": "Maintenance Curative",
+                "descriptions": [
+                    "Site qui sous performe. Intervention pour diagnostique de la sous performance.",
+                    "Site qui sous performe. Mesure des tensions Strings et MPPT.",
+                    "Site qui sous performe. Intervention pour vérification toiture avec Drone."
+                ],
+                "echeance": "J+7",
+                "id": 6,
+                "severite": "Normal",
+                "titre": "DIAG_SITE"
+            },
+            {
+                "alarme": "Webdyn hors tension",
+                "categorie": "Maintenance Curative",
+                "descriptions": [
+                    "Site découplé. Intervention pour réarmement AGCP avec prises des mesures Tensions AC.",
+                    "",
+                    ""
+                ],
+                "echeance": "J+ 3",
+                "id": 7,
+                "severite": "Urgent",
+                "titre": "REARM_AGCP"
+            },
+            {
+                "alarme": "Compteur ENEDIS improductif",
+                "categorie": "Maintenance Curative",
+                "descriptions": [
+                    "Site découplé. Intervention pour réarmement AGCP avec prises des mesures Tensions AC.",
+                    "",
+                    ""
+                ],
+                "echeance": "J+ 3",
+                "id": 8,
+                "severite": "Urgent",
+                "titre": "REARM_AGCP"
+            },
+            {
+                "alarme": "Compteur ENEDIS à 0",
+                "categorie": "Maintenance Curative",
+                "descriptions": [
+                    "Site découplé. Intervention pour réarmement AGCP avec prises des mesures Tensions AC.",
+                    "",
+                    ""
+                ],
+                "echeance": "J+ 3",
+                "id": 9,
+                "severite": "Urgent",
+                "titre": "REARM_AGCP"
+            },
+            {
+                "alarme": "Pas de données site à J-3",
+                "categorie": "Maintenance Curative",
+                "descriptions": [
+                    "Site découplé. Intervention pour réarmement AGCP avec prises des mesures Tensions AC.",
+                    "",
+                    ""
+                ],
+                "echeance": "J+ 3",
+                "id": 10,
+                "severite": "Urgent",
+                "titre": "REARM_AGCP"
+            }
+            // Note: J'ai inclus seulement les 10 premières pour l'exemple
+            // Le fichier complet contient 73 interventions
+        ];
+
+        async function importData() {
+            const statusDiv = document.getElementById('status');
+            const statsDiv = document.getElementById('stats');
+            const statsList = document.getElementById('statsList');
+            
+            try {
+                statusDiv.className = 'status info';
+                statusDiv.textContent = '🔄 Import en cours...';
+                
+                // Simuler l'import des données complètes
+                const fullData = await loadFullData();
+                
+                // Sauvegarder dans le storage
+                await chrome.storage.local.set({
+                    interventionsData: fullData,
+                    lastImport: new Date().toISOString(),
+                    importCount: fullData.length
+                });
+                
+                // Mettre à jour le statut
+                statusDiv.className = 'status success';
+                statusDiv.textContent = `✅ ${fullData.length} interventions importées avec succès !`;
+                
+                // Afficher les statistiques
+                const uniqueTitres = new Set(fullData.map(i => i.titre)).size;
+                const categories = [...new Set(fullData.map(i => i.categorie))];
+                const severites = [...new Set(fullData.map(i => i.severite))];
+                
+                statsList.innerHTML = `
+                    <li><strong>Total Interventions:</strong> ${fullData.length}</li>
+                    <li><strong>Codes Uniques:</strong> ${uniqueTitres}</li>
+                    <li><strong>Catégories:</strong> ${categories.join(', ')}</li>
+                    <li><strong>Sévérités:</strong> ${severites.join(', ')}</li>
+                    <li><strong>Dernière Import:</strong> ${new Date().toLocaleString('fr-FR')}</li>
+                `;
+                
+                statsDiv.style.display = 'block';
+                
+                console.log('✅ Import réussi:', fullData.length, 'interventions');
+                
+            } catch (error) {
+                statusDiv.className = 'status error';
+                statusDiv.textContent = `❌ Erreur lors de l'import: ${error.message}`;
+                console.error('❌ Erreur import:', error);
+            }
+        }
+        
+        async function loadFullData() {
+            // Charger le fichier JSON complet
+            const response = await fetch('./config_interventions_export.json');
+            const data = await response.json();
+            return data;
+        }
+        
+        function openOptions() {
+            chrome.runtime.openOptionsPage();
+        }
+        
+        // Vérifier si on est dans le contexte d'une extension
+        if (typeof chrome === 'undefined' || !chrome.storage) {
+            document.getElementById('status').className = 'status error';
+            document.getElementById('status').textContent = '❌ Cette page doit être ouverte dans le contexte de l\'extension Chrome.';
+        }
+    </script>
+</body>
+</html>
