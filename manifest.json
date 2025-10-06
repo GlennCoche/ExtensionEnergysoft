@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Auto Form PV Ultimate",
-  "version": "3.2.6",
-  "description": "Assistant intelligent pour interventions Energysoft",
+  "version": "3.2.7",
+  "description": "Assistant intelligent pour interventions Energysoft - Corrections boucle + GPA + Sévérité",
   
   "permissions": [
     "activeTab",
@@ -29,7 +29,7 @@
   
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Auto Form PV Ultimate"
+    "default_title": "Auto Form PV Ultimate v3.2.7"
   },
   
   "options_page": "options.html",

@@ -1,604 +1,336 @@
-// ===== AUTO FORM PV ULTIMATE - v3.2.6 OPTIMISÉ =====
+// ===== CONTENT.JS v3.2.7 - CORRECTIONS BOUCLE + GPA + SEVERITE =====
 
 (function() {
-  // Protection contre les injections multiples
   if (window.autoFormPVLoaded) return;
   window.autoFormPVLoaded = true;
 
   // ===== CONFIGURATION =====
-  const DEBUG_MODE = true; // Mode debug activable
-  const DEBOUNCE_DELAY = 500; // Délai pour le debouncing (ms)
+  const DEBUG_MODE = true;
+  const DEBOUNCE_DELAY = 500;
+  
+  // ===== FLAGS =====
+  let isProcessing = false;
+  let pageAlreadyProcessed = false; // NOUVEAU: Empêcher re-traitement
+  let debounceTimer = null;
+  let observer = null;
+  let interventionsCache = new Map();
+  let interventionsData = [];
 
-  // ===== FONCTION DE LOG CONDITIONNELLE =====
+  // ===== LOGGING =====
   function log(message, level = 'info') {
     if (!DEBUG_MODE) return;
-    
-    const prefix = '[AUTO-FORM-PV]';
     const timestamp = new Date().toLocaleTimeString();
+    const prefix = `[AUTO-FORM-PV] [${timestamp}]`;
     
     switch(level) {
-      case 'error':
-        console.error(`${prefix} [${timestamp}] ❌`, message);
-        break;
-      case 'warn':
-        console.warn(`${prefix} [${timestamp}] ⚠️`, message);
-        break;
-      case 'success':
-        console.log(`${prefix} [${timestamp}] ✅`, message);
-        break;
-      default:
-        console.log(`${prefix} [${timestamp}]`, message);
+      case 'error': console.error(prefix, message); break;
+      case 'warn': console.warn(prefix, message); break;
+      case 'success': console.log(`%c${prefix} ${message}`, 'color: #4CAF50; font-weight: bold'); break;
+      default: console.log(prefix, message);
     }
   }
 
-  log('Extension chargée v3.2.6');
+  log('Extension chargée v3.2.7');
 
-  // ===== VARIABLES GLOBALES =====
-  let interventionsData = [];
-  let isProcessing = false;
-  let debounceTimer = null;
-
-  // ===== CACHE DES INTERVENTIONS =====
-  const interventionsCache = new Map();
-
-  function getCachedIntervention(alarmName) {
-    if (interventionsCache.has(alarmName)) {
-      log(`Cache hit pour: ${alarmName}`, 'success');
-      return interventionsCache.get(alarmName);
-    }
-    return null;
-  }
-
-  function setCachedIntervention(alarmName, intervention) {
-    interventionsCache.set(alarmName, intervention);
-    log(`Mise en cache: ${alarmName} -> ${intervention ? intervention.titre : 'null'}`);
-  }
-
-  function clearCache() {
-    interventionsCache.clear();
-    log('Cache vidé', 'warn');
-  }
-
-  // ===== EXPORT DEBUG =====
-  function exportDebugData() {
-    const debugData = {
-      timestamp: new Date().toISOString(),
-      version: '3.2.0',
-      url: window.location.href,
-      interventionsCount: interventionsData.length,
-      cacheSize: interventionsCache.size,
-      
-      // Informations de la page
-      pageInfo: {
-        title: document.title,
-        url: window.location.href,
-        readyState: document.readyState
-      },
-      
-      // Champs détectés
-      fields: {
-        site: extractSiteDebug(),
-        titre: findTitreFieldDebug(),
-        ticketParent: extractTicketParentDebug(),
-        categorie: findCategorieFieldDebug(),
-        dateEcheance: findDateEcheanceFieldDebug(),
-        textareas: findTextareasDebug()
-      },
-      
-      // Alarmes en storage
-      storageAlarms: null,
-      
-      // Interventions chargées
-      interventions: interventionsData.slice(0, 5), // 5 premières
-      
-      // DOM structure
-      domStructure: {
-        labels: Array.from(document.querySelectorAll('label')).map(l => l.textContent.trim()).slice(0, 20),
-        selects: Array.from(document.querySelectorAll('select')).map(s => ({
-          id: s.id,
-          name: s.name,
-          options: Array.from(s.options).map(o => o.textContent.trim()).slice(0, 10)
-        })),
-        inputs: Array.from(document.querySelectorAll('input[type="text"]')).map(i => ({
-          id: i.id,
-          name: i.name,
-          value: i.value,
-          readOnly: i.readOnly
-        })).slice(0, 20)
-      }
-    };
-    
-    // Récupérer les alarmes du storage
-    chrome.storage.local.get(['currentAlarms'], function(result) {
-      debugData.storageAlarms = result.currentAlarms || [];
-      
-      // Télécharger le fichier
-      const dataStr = JSON.stringify(debugData, null, 2);
-      const blob = new Blob([dataStr], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `auto-form-pv-debug-${Date.now()}.json`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-      
-      log('Export debug téléchargé', 'success');
-    });
-  }
-
-  // Fonctions debug pour l'export
-  function extractSiteDebug() {
-    const siteField = findSiteField();
-    return {
-      found: !!siteField,
-      value: siteField ? siteField.value : null,
-      id: siteField ? siteField.id : null,
-      name: siteField ? siteField.name : null
-    };
-  }
-
-  function findTitreFieldDebug() {
-    const titreField = findTitreField();
-    return {
-      found: !!titreField,
-      value: titreField ? titreField.value : null,
-      id: titreField ? titreField.id : null,
-      type: titreField ? titreField.tagName : null
-    };
-  }
-
-  function extractTicketParentDebug() {
-    const alarmInfo = extractAlarmInfo();
-    return {
-      found: !!alarmInfo,
-      number: alarmInfo ? alarmInfo.number : null,
-      name: alarmInfo ? alarmInfo.name : null,
-      fullText: alarmInfo ? alarmInfo.fullText : null
-    };
-  }
-
-  function findCategorieFieldDebug() {
-    const selects = document.querySelectorAll('select');
-    return Array.from(selects).map(s => ({
-      id: s.id,
-      name: s.name,
-      optionsCount: s.options.length,
-      firstOptions: Array.from(s.options).slice(0, 5).map(o => o.textContent.trim())
-    }));
-  }
-
-  function findDateEcheanceFieldDebug() {
-    const labels = document.querySelectorAll('label');
-    for (const label of labels) {
-      if (label.textContent.toLowerCase().includes('échéance')) {
-        return {
-          found: true,
-          labelText: label.textContent.trim(),
-          forId: label.getAttribute('for')
-        };
-      }
-    }
-    return { found: false };
-  }
-
-  function findTextareasDebug() {
-    const textareas = document.querySelectorAll('textarea');
-    return Array.from(textareas).map((ta, index) => ({
-      index: index,
-      id: ta.id,
-      name: ta.name,
-      rows: ta.rows,
-      value: ta.value ? ta.value.substring(0, 100) : '',
-      hasMaintenanceText: ta.value ? ta.value.includes('Maintenance liée à l\'alarme') : false
-    }));
-  }
-
-
-  // ===== DÉTECTION DE LA PAGE "NOUVELLE INTERVENTION" =====
+  // ===== DETECTION PAGE =====
   function isNouvelleInterventionPage() {
-    const url = window.location.href;
-    if (!url.includes('energysoft.app')) {
-      return false;
-    }
+    const titleField = findTitleField();
+    const hasRequiredFields = titleField !== null;
     
-    const pageTitle = document.querySelector('h1, h2, h3, .page-title, .modal-title');
-    if (pageTitle && pageTitle.textContent.includes('Nouvelle intervention')) {
-      log('Page "Nouvelle intervention" détectée via titre');
-      return true;
-    }
-    
-    const hasSiteField = findSiteField() !== null;
-    const hasTitreField = findTitreField() !== null;
-    const hasTicketParent = findTicketParent() !== null;
-    
-    const isValid = hasSiteField && hasTitreField && hasTicketParent;
-    
-    if (isValid) {
+    if (hasRequiredFields) {
       log('Page "Nouvelle intervention" détectée via champs');
-    } else {
-      log(`Champs manquants: Site=${hasSiteField}, Titre=${hasTitreField}, Ticket=${hasTicketParent}`, 'warn');
-    }
-    
-    return isValid;
-  }
-
-  // ===== EXTRACTION DU CHAMP "SITE" =====
-  function findSiteField() {
-    const labels = document.querySelectorAll('label');
-    for (const label of labels) {
-      if (label.textContent.trim().toLowerCase() === 'site') {
-        const forId = label.getAttribute('for');
-        if (forId) {
-          const input = document.getElementById(forId);
-          if (input) return input;
-        }
-        
-        const parent = label.parentElement;
-        if (parent) {
-          const input = parent.querySelector('input[type="text"]');
-          if (input) return input;
-        }
-      }
-    }
-    return null;
-  }
-
-  // ===== EXTRACTION DU SITE (NORMALISATION) =====
-  function extractSite() {
-    const siteField = findSiteField();
-    if (siteField && siteField.value) {
-      let site = siteField.value.trim();
-      // Normaliser le séparateur (| ou |)
-      site = site.replace(/\s*[\|│]\s*/g, ' | ');
-      log(`Site extrait: ${site}`);
-      return site;
-    }
-    log('Champ "Site" vide', 'warn');
-    return null;
-  }
-
-  // ===== EXTRACTION DU TICKET PARENT =====
-  function findTicketParent() {
-    const labels = document.querySelectorAll('label');
-    for (const label of labels) {
-      if (label.textContent.trim().toLowerCase() === 'ticket parent') {
-        let nextElement = label.nextElementSibling;
-        while (nextElement) {
-          const link = nextElement.querySelector('a');
-          if (link && link.textContent.trim().startsWith('A-')) {
-            return link;
-          }
-          nextElement = nextElement.nextElementSibling;
-        }
-      }
-    }
-    return null;
-  }
-
-  // ===== EXTRACTION DE L'ALARME DEPUIS LE TICKET PARENT =====
-  function extractAlarmInfo() {
-    const ticketLink = findTicketParent();
-    if (!ticketLink) {
-      log('Pas de ticket parent trouvé', 'warn');
-      return null;
-    }
-    
-    const ticketText = ticketLink.textContent.trim();
-    const match = ticketText.match(/^(A-\d+)\s*-\s*(.+)$/);
-    
-    if (match) {
-      const alarmNumber = match[1];
-      const alarmName = match[2].trim();
-      
-      log(`Alarme extraite: ${alarmNumber} - ${alarmName}`, 'success');
-      return {
-        number: alarmNumber,
-        name: alarmName,
-        fullText: ticketText
-      };
-    }
-    
-    log('Format de ticket parent invalide', 'error');
-    return null;
-  }
-
-  // ===== VALIDATION DE LA CORRESPONDANCE SITE (AMÉLIORÉE) =====
-  function validateSiteMatch(alarmSite, formSite) {
-    if (!alarmSite || !formSite || alarmSite === 'Inconnu') {
-      log('Validation site: données manquantes ou Inconnu', 'warn');
       return true;
     }
-    
-    // Normaliser les sites (enlever espaces, séparateurs, mettre en minuscules)
-    const normalizedAlarmSite = alarmSite.toLowerCase()
-      .replace(/\s*[\|│]\s*/g, '')
-      .replace(/\s+/g, '');
-    const normalizedFormSite = formSite.toLowerCase()
-      .replace(/\s*[\|│]\s*/g, '')
-      .replace(/\s+/g, '');
-    
-    // Extraire le code site (ex: AP5424)
-    const alarmCode = normalizedAlarmSite.match(/^[a-z]{2}\d+/);
-    const formCode = normalizedFormSite.match(/^[a-z]{2}\d+/);
-    
-    if (alarmCode && formCode) {
-      const match = alarmCode[0] === formCode[0];
-      if (match) {
-        log(`✅ Validation site OK: "${alarmSite}" ↔ "${formSite}"`, 'success');
-      } else {
-        log(`⚠️ Sites différents: Alarme="${alarmSite}" vs Formulaire="${formSite}"`, 'warn');
-      }
-      return match;
-    }
-    
-    // Fallback: vérification par inclusion
-    const match = normalizedAlarmSite.includes(normalizedFormSite) || 
-                  normalizedFormSite.includes(normalizedAlarmSite);
-    
-    if (match) {
-      log(`✅ Validation site OK (partielle): "${alarmSite}" ↔ "${formSite}"`, 'success');
-    } else {
-      log(`⚠️ Sites différents: Alarme="${alarmSite}" vs Formulaire="${formSite}"`, 'warn');
-    }
-    
-    return match;
+    return false;
   }
 
-  // ===== RECHERCHE D'UNE INTERVENTION PAR ALARME =====
-  function findInterventionByAlarm(alarmInfo) {
-    if (!alarmInfo || !interventionsData.length) {
-      log('Recherche impossible: données manquantes', 'error');
-      return null;
-    }
-    
-    const alarmName = alarmInfo.name;
-    
-    const cached = getCachedIntervention(alarmName);
-    if (cached !== null) {
-      return cached;
-    }
-    
-    log(`Recherche intervention pour: ${alarmName}`);
-    
-    let intervention = interventionsData.find(item => 
-      item.alarme && item.alarme.toLowerCase() === alarmName.toLowerCase()
-    );
-    
-    if (intervention) {
-      log(`Correspondance exacte: ${intervention.titre}`, 'success');
-      setCachedIntervention(alarmName, intervention);
-      return intervention;
-    }
-    
-    intervention = interventionsData.find(item => 
-      item.alarme && alarmName.toLowerCase().includes(item.alarme.toLowerCase())
-    );
-    
-    if (intervention) {
-      log(`Correspondance partielle: ${intervention.titre}`, 'success');
-      setCachedIntervention(alarmName, intervention);
-      return intervention;
-    }
-    
-    intervention = interventionsData.find(item => 
-      item.alarme && item.alarme.toLowerCase().includes(alarmName.toLowerCase())
-    );
-    
-    if (intervention) {
-      log(`Correspondance inversée: ${intervention.titre}`, 'success');
-      setCachedIntervention(alarmName, intervention);
-      return intervention;
-    }
-    
-    log(`Aucune intervention trouvée pour: ${alarmName}`, 'error');
-    setCachedIntervention(alarmName, null);
-    return null;
-  }
-
-  // ===== RECHERCHE DU CHAMP TITRE =====
-  function findTitreField() {
-    const labels = document.querySelectorAll('label');
-    for (const label of labels) {
-      if (label.textContent.trim().toLowerCase() === 'titre') {
-        const forId = label.getAttribute('for');
-        if (forId) {
-          const input = document.getElementById(forId);
-          if (input && !input.readOnly) return input;
-        }
+  // ===== RECHERCHE CHAMPS =====
+  function findTitleField() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    for (let input of inputs) {
+      const label = findLabelForInput(input);
+      if (label && label.textContent.includes('Titre')) {
+        return input;
       }
     }
     return null;
   }
 
-  // ===== RECHERCHE DU SELECT CATÉGORIE =====
+  function findSiteField() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    for (let input of inputs) {
+      const label = findLabelForInput(input);
+      if (label && label.textContent.includes('Site')) {
+        return input;
+      }
+    }
+    return null;
+  }
+
   function findCategorieSelect() {
-    const labels = document.querySelectorAll('label');
-    for (const label of labels) {
-      const text = label.textContent.trim().toLowerCase();
-      if (text === 'catégorie' || text === 'categorie') {
-        const forId = label.getAttribute('for');
-        if (forId) {
-          const select = document.getElementById(forId);
-          if (select && select.tagName === 'SELECT') {
-            log(`Select catégorie trouvé: ${select.id}`);
-            return select;
-          }
-        }
-        
-        // Chercher dans le parent
-        let parent = label.parentElement;
-        if (parent) {
-          const select = parent.querySelector('select');
-          if (select) {
-            log(`Select catégorie trouvé (via parent): ${select.id || 'no-id'}`);
-            return select;
-          }
-        }
-      }
-    }
+    const labels = Array.from(document.querySelectorAll('label'));
+    const categorieLabel = labels.find(l => l.textContent.includes('Catégorie'));
     
-    // Fallback: chercher tous les selects et trouver celui avec des catégories
-    const selects = document.querySelectorAll('select');
-    for (const select of selects) {
-      const options = Array.from(select.options).map(o => o.textContent.toLowerCase());
-      if (options.some(o => o.includes('maintenance') || o.includes('curative') || o.includes('préventive'))) {
-        log(`Select catégorie trouvé (fallback): ${select.id || 'no-id'}`);
+    if (categorieLabel) {
+      const select = categorieLabel.parentElement.querySelector('select');
+      if (select) {
+        log(`Select catégorie trouvé: ${select.id || 'no-id'}`);
         return select;
       }
     }
     
-    log('Select catégorie non trouvé', 'warn');
     return null;
   }
 
-  // ===== RECHERCHE DU CHAMP DATE D'ÉCHÉANCE =====
+  function findSeveriteSelect() {
+    // Méthode 1: Par label
+    const labels = Array.from(document.querySelectorAll('label'));
+    const severiteLabel = labels.find(l => 
+      l.textContent.includes('Sévérité') || 
+      l.textContent.includes('Severité') ||
+      l.textContent.includes('Severite')
+    );
+    
+    if (severiteLabel) {
+      const select = severiteLabel.parentElement.querySelector('select');
+      if (select) {
+        log(`Select sévérité trouvé via label: ${select.id || 'no-id'}`);
+        return select;
+      }
+    }
+    
+    // Méthode 2: Chercher un select avec les bonnes options
+    const allSelects = document.querySelectorAll('select');
+    for (let select of allSelects) {
+      const options = Array.from(select.options).map(o => o.text.toLowerCase());
+      if (options.some(o => 
+        o.includes('normal') || 
+        o.includes('urgent') || 
+        o.includes('haut') ||
+        o.includes('bas')
+      )) {
+        log(`Select sévérité trouvé via options: ${select.id || 'no-id'}`);
+        log(`Options disponibles: ${Array.from(select.options).map(o => o.text).join(', ')}`);
+        return select;
+      }
+    }
+    
+    log('❌ Select sévérité non trouvé', 'warn');
+    return null;
+  }
+
   function findDateEcheanceField() {
-    const labels = document.querySelectorAll('label');
-    for (const label of labels) {
-      const text = label.textContent.trim().toLowerCase();
-      if (text.includes('échéance') || text.includes('echeance')) {
-        const forId = label.getAttribute('for');
-        if (forId) {
-          const input = document.getElementById(forId);
-          if (input) {
-            log(`Champ date échéance trouvé: ${input.id}`);
-            return input;
-          }
-        }
-        
-        // Chercher dans le parent
-        const parent = label.parentElement;
-        if (parent) {
-          const input = parent.querySelector('input');
-          if (input) {
-            log(`Champ date échéance trouvé (via parent): ${input.id || 'no-id'}`);
-            return input;
+    const inputs = document.querySelectorAll('input[type="text"]');
+    
+    for (let input of inputs) {
+      const label = findLabelForInput(input);
+      if (label && label.textContent.includes("Date d'échéance")) {
+        log(`Champ date échéance trouvé (via label): ${input.id || 'no-id'}`);
+        return input;
+      }
+      
+      const parent = input.parentElement;
+      if (parent && parent.textContent.includes("Date d'échéance")) {
+        log(`Champ date échéance trouvé (via parent): ${input.id || 'no-id'}`);
+        return input;
+      }
+    }
+    
+    return null;
+  }
+
+  function findLabelForInput(input) {
+    if (input.id) {
+      const label = document.querySelector(`label[for="${input.id}"]`);
+      if (label) return label;
+    }
+    
+    let parent = input.parentElement;
+    while (parent && parent.tagName !== 'BODY') {
+      const label = parent.querySelector('label');
+      if (label) return label;
+      parent = parent.parentElement;
+    }
+    
+    return null;
+  }
+
+  // ===== EXTRACTION DONNEES =====
+  function extractSite() {
+    const siteField = findSiteField();
+    if (!siteField || !siteField.value) return null;
+    
+    const site = siteField.value.trim();
+    log(`Site extrait: ${site}`);
+    return site;
+  }
+
+  function extractAlarm() {
+    const allText = document.body.textContent;
+    const alarmMatch = allText.match(/A-\d+\s*-\s*([^\n]+)/);
+    
+    if (alarmMatch) {
+      const alarmInfo = {
+        id: alarmMatch[0].match(/A-\d+/)[0],
+        name: alarmMatch[1].trim()
+      };
+      log(`✅ Alarme extraite: ${alarmInfo.id} - ${alarmInfo.name}`, 'success');
+      return alarmInfo;
+    }
+    
+    log('❌ Aucune alarme trouvée', 'warn');
+    return null;
+  }
+
+  // ===== CORRESPONDANCE INTERVENTION =====
+  function findInterventionByAlarm(alarmInfo) {
+    if (!alarmInfo || !alarmInfo.name) return null;
+    
+    const cacheKey = alarmInfo.name;
+    if (interventionsCache.has(cacheKey)) {
+      log(`✅ Cache hit pour: ${cacheKey}`, 'success');
+      return interventionsCache.get(cacheKey);
+    }
+    
+    log(`Recherche intervention pour: ${alarmInfo.name}`);
+    
+    // Recherche exacte
+    for (let intervention of interventionsData) {
+      if (intervention.alarms) {
+        for (let alarmPattern of intervention.alarms) {
+          if (alarmInfo.name.includes(alarmPattern)) {
+            log(`✅ Correspondance exacte: ${intervention.code}`, 'success');
+            interventionsCache.set(cacheKey, intervention);
+            log(`Mise en cache: ${cacheKey} -> ${intervention.code}`);
+            return intervention;
           }
         }
       }
     }
     
-    log('Champ date échéance non trouvé', 'warn');
+    log(`❌ Aucune correspondance trouvée pour: ${alarmInfo.name}`, 'warn');
+    interventionsCache.set(cacheKey, null);
     return null;
   }
 
-  // ===== REMPLISSAGE D'UN CHAMP =====
+  // ===== REMPLISSAGE CHAMPS =====
   function fillField(field, value) {
     if (!field || !value) return;
     
     field.value = value;
     field.dispatchEvent(new Event('input', { bubbles: true }));
     field.dispatchEvent(new Event('change', { bubbles: true }));
-    field.dispatchEvent(new Event('blur', { bubbles: true }));
   }
 
-  // ===== ENRICHISSEMENT DU COMMENTAIRE AVEC DONNÉES D'ALARME =====
-  function enrichCommentWithAlarmData(commentField, intervention, alarmInfo, site) {
-    if (!commentField) {
-      log('Enrichissement commentaire: champ manquant', 'warn');
-      return;
+  function fillSeverite(severite) {
+    const select = findSeveriteSelect();
+    if (!select) {
+      log('❌ Select sévérité non trouvé', 'error');
+      return false;
     }
     
-    // Vérifier que le contexte de l'extension est toujours valide
-    if (!chrome.runtime || !chrome.runtime.id) {
-      log('Contexte extension invalidé, arrêt du traitement', 'warn');
-      return;
+    log(`Tentative de remplissage sévérité: ${severite}`);
+    
+    // Chercher l'option correspondante
+    const option = Array.from(select.options).find(o => {
+      const optionText = o.text.toLowerCase();
+      const targetText = severite.toLowerCase();
+      return optionText.includes(targetText) || o.value.toLowerCase().includes(targetText);
+    });
+    
+    if (option) {
+      select.value = option.value;
+      select.dispatchEvent(new Event('change', { bubbles: true }));
+      select.dispatchEvent(new Event('blur', { bubbles: true }));
+      log(`✅ Sévérité remplie: ${severite} (option: ${option.text})`, 'success');
+      return true;
     }
     
-    log('Champ commentaire laissé vide (pas de remplissage automatique)');
-    
-    // Laisser le champ vide - pas de remplissage automatique
-    fillField(commentField, '');
-    log('Commentaire laissé vide', 'success');
+    log(`❌ Option sévérité "${severite}" non trouvée dans: ${Array.from(select.options).map(o => o.text).join(', ')}`, 'error');
+    return false;
   }
 
-  // ===== REMPLISSAGE AUTOMATIQUE DU FORMULAIRE =====
+  function calculateDeadline(echeanceStr) {
+    const match = echeanceStr.match(/J\+(\d+)/);
+    if (!match) return null;
+    
+    const days = parseInt(match[1]);
+    const deadline = new Date();
+    deadline.setDate(deadline.getDate() + days);
+    
+    const day = String(deadline.getDate()).padStart(2, '0');
+    const month = String(deadline.getMonth() + 1).padStart(2, '0');
+    const year = deadline.getFullYear();
+    
+    return `${day}/${month}/${year}`;
+  }
+
   function autoFillForm(intervention, alarmInfo, site) {
-    if (!intervention) {
-      log('Pas d\'intervention à remplir', 'warn');
-      return;
+    log(`Remplissage automatique: ${intervention.code}`);
+    
+    // 1. Titre
+    const titleField = findTitleField();
+    if (titleField && intervention.titles && intervention.titles[0]) {
+      fillField(titleField, intervention.titles[0]);
+      log('✅ Titre rempli', 'success');
+      
+      // Créer le bouton GPA après remplissage du titre
+      setTimeout(() => createGPAButton(), 100);
     }
     
-    log(`Remplissage automatique: ${intervention.titre}`);
-    
-    // Champ Titre
-    const titreField = findTitreField();
-    if (titreField) {
-      fillField(titreField, intervention.titre);
-      log('Titre rempli', 'success');
-    } else {
-      log('Champ Titre non trouvé', 'error');
-    }
-    
+    // 2. Catégorie
     setTimeout(() => {
-      // Champ Catégorie
       const categorieSelect = findCategorieSelect();
       if (categorieSelect && intervention.categorie) {
-        const options = categorieSelect.querySelectorAll('option');
-        for (const option of options) {
-          if (option.textContent.toLowerCase().includes(intervention.categorie.toLowerCase())) {
-            categorieSelect.value = option.value;
-            categorieSelect.dispatchEvent(new Event('change', { bubbles: true }));
-            log(`Catégorie remplie: ${intervention.categorie}`, 'success');
-            break;
-          }
+        const option = Array.from(categorieSelect.options).find(o => 
+          o.text.includes(intervention.categorie)
+        );
+        if (option) {
+          categorieSelect.value = option.value;
+          categorieSelect.dispatchEvent(new Event('change', { bubbles: true }));
+          log(`✅ Catégorie remplie: ${intervention.categorie}`, 'success');
         }
       }
       
-      // Date d'échéance (calculer la date si format "J + X")
-      const dateEcheanceField = findDateEcheanceField();
-      if (dateEcheanceField && intervention.echeance) {
-        let dateValue = intervention.echeance;
-        
-        // Si format "J + 5" ou "J+5", calculer la date
-        const match = dateValue.match(/J\s*\+\s*(\d+)/i);
-        if (match) {
-          const daysToAdd = parseInt(match[1]);
-          const futureDate = new Date();
-          futureDate.setDate(futureDate.getDate() + daysToAdd);
-          
-          // Format: JJ/MM/AAAA
-          const day = String(futureDate.getDate()).padStart(2, '0');
-          const month = String(futureDate.getMonth() + 1).padStart(2, '0');
-          const year = futureDate.getFullYear();
-          dateValue = `${day}/${month}/${year}`;
-          
-          log(`Date échéance calculée: ${intervention.echeance} → ${dateValue}`, 'success');
-        }
-        
-        fillField(dateEcheanceField, dateValue);
-        log(`Date échéance remplie: ${dateValue}`, 'success');
+      // 3. Sévérité
+      if (intervention.severite) {
+        setTimeout(() => fillSeverite(intervention.severite), 200);
       }
       
+      // 4. Date d'échéance
+      const dateField = findDateEcheanceField();
+      if (dateField && intervention.echeance) {
+        const calculatedDate = calculateDeadline(intervention.echeance);
+        if (calculatedDate) {
+          fillField(dateField, calculatedDate);
+          log(`✅ Date échéance calculée: ${intervention.echeance} → ${calculatedDate}`, 'success');
+          log(`✅ Date échéance remplie: ${calculatedDate}`, 'success');
+        }
+      }
+      
+      // 5. Description et Commentaire
       setTimeout(() => {
         const textareas = document.querySelectorAll('textarea');
         log(`${textareas.length} textareas trouvés`);
         
-        // Identifier les textareas par leur contenu ou position
         let descriptionField = null;
         let commentaireField = null;
         
-        // Chercher le textarea "Description" (celui qui contient "Maintenance liée à l'alarme")
         for (let i = 0; i < textareas.length; i++) {
           const ta = textareas[i];
           const value = ta.value || '';
           
-          // Si contient "Maintenance liée à l'alarme", c'est la description auto du formulaire
           if (value.includes('Maintenance liée à l\'alarme')) {
             descriptionField = ta;
             log(`Description trouvée: textarea[${i}]`);
           }
           
-          // Si rows = 6, c'est probablement le commentaire
           if (ta.rows === 6 || ta.rows === '6') {
             commentaireField = ta;
             log(`Commentaire trouvé: textarea[${i}] (rows=6)`);
           }
         }
         
-        // Fallback: utiliser les premiers textareas trouvés
         if (!descriptionField && textareas.length > 0) {
           descriptionField = textareas[0];
           log('Description fallback: textarea[0]');
@@ -609,24 +341,201 @@
           log('Commentaire fallback: textarea[1]');
         }
         
-        // Remplir la Description
         if (descriptionField && intervention.descriptions && intervention.descriptions[0]) {
           fillField(descriptionField, intervention.descriptions[0]);
-          log('Description remplie', 'success');
+          log('✅ Description remplie', 'success');
         }
         
-        // Remplir le Commentaire
         if (commentaireField) {
-          enrichCommentWithAlarmData(commentaireField, intervention, alarmInfo, site);
+          log('Champ commentaire laissé vide (pas de remplissage automatique)');
+          log('✅ Commentaire laissé vide', 'success');
         }
       }, 500);
     }, 500);
   }
 
+  // ===== BOUTON GPA =====
+  function createGPAButton() {
+    const titleField = findTitleField();
+    if (!titleField) return;
+    
+    // Vérifier si le bouton existe déjà
+    if (document.getElementById('gpa-button')) return;
+    
+    const button = document.createElement('button');
+    button.id = 'gpa-button';
+    button.textContent = 'GPA';
+    button.style.cssText = `
+      position: absolute;
+      top: -35px;
+      left: 0;
+      background: #FFD700;
+      color: #000;
+      border: 2px solid #FFA500;
+      border-radius: 4px;
+      padding: 6px 16px;
+      font-weight: bold;
+      cursor: pointer;
+      z-index: 9999;
+      font-size: 14px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    `;
+    
+    button.addEventListener('mouseenter', () => {
+      button.style.background = '#FFA500';
+      button.style.transform = 'scale(1.05)';
+    });
+    
+    button.addEventListener('mouseleave', () => {
+      button.style.background = '#FFD700';
+      button.style.transform = 'scale(1)';
+    });
+    
+    button.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      const currentValue = titleField.value;
+      if (!currentValue.endsWith('_GPA')) {
+        titleField.value = currentValue + '_GPA';
+        titleField.dispatchEvent(new Event('input', { bubbles: true }));
+        titleField.dispatchEvent(new Event('change', { bubbles: true }));
+        log('✅ _GPA ajouté au titre: ' + titleField.value, 'success');
+        
+        // Animation de feedback
+        button.textContent = '✓';
+        button.style.background = '#4CAF50';
+        setTimeout(() => {
+          button.textContent = 'GPA';
+          button.style.background = '#FFD700';
+        }, 1000);
+      } else {
+        log('_GPA déjà présent dans le titre', 'info');
+      }
+    });
+    
+    // S'assurer que le parent a position relative
+    const parent = titleField.parentElement;
+    if (parent) {
+      parent.style.position = 'relative';
+      parent.insertBefore(button, titleField);
+      log('✅ Bouton GPA créé', 'success');
+    }
+  }
+
+  // ===== BOUTON DEBUG =====
+  function createDebugButton() {
+    // Vérifier si le bouton existe déjà
+    if (document.getElementById('debug-export-button')) return;
+    
+    const button = document.createElement('button');
+    button.id = 'debug-export-button';
+    button.textContent = '🐛 Debug Export';
+    button.style.cssText = `
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      cursor: pointer;
+      z-index: 99999;
+      font-weight: bold;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
+    `;
+    
+    button.addEventListener('mouseenter', () => {
+      button.style.background = '#1976D2';
+      button.style.transform = 'scale(1.05)';
+    });
+    
+    button.addEventListener('mouseleave', () => {
+      button.style.background = '#2196F3';
+      button.style.transform = 'scale(1)';
+    });
+    
+    button.addEventListener('click', exportDebugInfo);
+    document.body.appendChild(button);
+    log('✅ Bouton Debug créé', 'success');
+  }
+
+  function exportDebugInfo() {
+    const debug = {
+      timestamp: new Date().toISOString(),
+      version: '3.2.7',
+      url: location.href,
+      pageProcessed: pageAlreadyProcessed,
+      fields: {
+        title: {
+          value: findTitleField()?.value || 'NON TROUVÉ',
+          element: findTitleField() ? 'TROUVÉ' : 'NON TROUVÉ'
+        },
+        site: {
+          value: extractSite() || 'NON TROUVÉ',
+          element: findSiteField() ? 'TROUVÉ' : 'NON TROUVÉ'
+        },
+        categorie: {
+          value: findCategorieSelect()?.value || 'NON TROUVÉ',
+          selectedText: findCategorieSelect()?.selectedOptions[0]?.text || 'NON TROUVÉ',
+          element: findCategorieSelect() ? 'TROUVÉ' : 'NON TROUVÉ'
+        },
+        severite: {
+          value: findSeveriteSelect()?.value || 'NON TROUVÉ',
+          selectedText: findSeveriteSelect()?.selectedOptions[0]?.text || 'NON TROUVÉ',
+          element: findSeveriteSelect() ? 'TROUVÉ' : 'NON TROUVÉ',
+          allOptions: findSeveriteSelect() ? 
+            Array.from(findSeveriteSelect().options).map(o => ({ value: o.value, text: o.text })) : []
+        },
+        dateEcheance: {
+          value: findDateEcheanceField()?.value || 'NON TROUVÉ',
+          element: findDateEcheanceField() ? 'TROUVÉ' : 'NON TROUVÉ'
+        }
+      },
+      alarm: extractAlarm() || 'NON TROUVÉ',
+      allSelects: Array.from(document.querySelectorAll('select')).map((s, idx) => ({
+        index: idx,
+        id: s.id || 'no-id',
+        name: s.name || 'no-name',
+        className: s.className,
+        value: s.value,
+        selectedText: s.selectedOptions[0]?.text || '',
+        options: Array.from(s.options).map(o => ({
+          value: o.value,
+          text: o.text
+        }))
+      })),
+      allTextareas: Array.from(document.querySelectorAll('textarea')).map((ta, idx) => ({
+        index: idx,
+        id: ta.id || 'no-id',
+        name: ta.name || 'no-name',
+        rows: ta.rows,
+        value: ta.value.substring(0, 100) + (ta.value.length > 100 ? '...' : '')
+      })),
+      interventionsDataCount: interventionsData.length,
+      cacheSize: interventionsCache.size
+    };
+    
+    const blob = new Blob([JSON.stringify(debug, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `auto-form-pv-debug-${Date.now()}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    
+    log('✅ Debug exporté', 'success');
+    console.log('Debug info:', debug);
+  }
+
   // ===== PROCESSUS PRINCIPAL =====
   function processNouvelleIntervention() {
-    if (isProcessing) {
-      log('Traitement déjà en cours, ignoré');
+    // NOUVEAU: Vérifier si déjà traité
+    if (isProcessing || pageAlreadyProcessed) {
+      log('Page déjà traitée, arrêt', 'info');
       return;
     }
     
@@ -646,93 +555,103 @@
       return;
     }
     
-    const alarmInfo = extractAlarmInfo();
+    const alarmInfo = extractAlarm();
     if (!alarmInfo) {
-      log('Pas d\'alarme détectée', 'error');
+      log('❌ Aucune alarme trouvée', 'error');
       isProcessing = false;
       return;
     }
     
     const intervention = findInterventionByAlarm(alarmInfo);
     if (!intervention) {
-      log(`Aucune intervention trouvée pour: ${alarmInfo.name}`, 'error');
+      log('❌ Aucune intervention correspondante', 'warn');
       isProcessing = false;
       return;
     }
     
     autoFillForm(intervention, alarmInfo, site);
     
-    log('=== TRAITEMENT TERMINÉ ===', 'success');
+    // NOUVEAU: Marquer comme traité et arrêter l'observer
+    pageAlreadyProcessed = true;
+    if (observer) {
+      observer.disconnect();
+      log('✅ Observer arrêté - Page traitée avec succès', 'success');
+    }
+    
+    log('✅ === TRAITEMENT TERMINÉ ===', 'success');
     isProcessing = false;
   }
 
-  // ===== PROCESSUS AVEC DEBOUNCING =====
-  function debouncedProcess() {
-    if (debounceTimer) {
-      clearTimeout(debounceTimer);
-      log('Timer debounce annulé');
+  // ===== OBSERVER DOM =====
+  function setupObserver() {
+    if (observer) {
+      observer.disconnect();
     }
     
-    debounceTimer = setTimeout(() => {
-      log('Timer debounce déclenché');
-      processNouvelleIntervention();
-    }, DEBOUNCE_DELAY);
-  }
-
-  // ===== CHARGEMENT DES DONNÉES =====
-  function loadInterventionsData() {
-    chrome.storage.local.get(['interventionsData'], function(result) {
-      if (chrome.runtime.lastError) {
-        log(`Erreur chargement: ${chrome.runtime.lastError.message}`, 'error');
-        return;
-      }
+    observer = new MutationObserver(() => {
+      // Ne pas traiter si déjà fait
+      if (pageAlreadyProcessed) return;
       
-      if (result.interventionsData && result.interventionsData.length > 0) {
-        interventionsData = result.interventionsData;
-        log(`${interventionsData.length} interventions chargées`, 'success');
+      const siteField = findSiteField();
+      if (siteField && siteField.value && !isProcessing) {
+        log('Champ "Site" détecté, relance du traitement (debounced)');
         
-        clearCache();
+        if (debounceTimer) {
+          clearTimeout(debounceTimer);
+          log('Timer debounce annulé');
+        }
         
-        setTimeout(debouncedProcess, 1000);
-      } else {
-        log('Aucune donnée chargée', 'warn');
+        debounceTimer = setTimeout(() => {
+          log('Timer debounce déclenché');
+          processNouvelleIntervention();
+        }, DEBOUNCE_DELAY);
       }
     });
-  }
-
-  // ===== ÉCOUTE DES MISES À JOUR DE DONNÉES =====
-  chrome.storage.onChanged.addListener(function(changes, namespace) {
-    if (namespace === 'local' && changes.interventionsData) {
-      log('Données mises à jour - rechargement', 'warn');
-      location.reload();
-    }
-  });
-
-  // ===== OBSERVER LES CHANGEMENTS DU DOM (AVEC DEBOUNCING) =====
-  const observer = new MutationObserver(() => {
-    const siteField = findSiteField();
-    if (siteField && siteField.value && !isProcessing) {
-      log('Champ "Site" détecté, relance du traitement (debounced)');
-      debouncedProcess();
-    }
-  });
-
-  if (document.body) {
+    
     observer.observe(document.body, {
       childList: true,
       subtree: true,
       attributes: true,
       attributeFilter: ['value']
     });
+    
     log('Observer DOM activé');
   }
 
-  // ===== DÉMARRAGE =====
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      loadInterventionsData();
-    });
-  } else {
-    loadInterventionsData();
+  // ===== DETECTION CHANGEMENT PAGE =====
+  let lastUrl = location.href;
+  function checkUrlChange() {
+    if (location.href !== lastUrl) {
+      log(`Changement d'URL détecté: ${lastUrl} → ${location.href}`);
+      lastUrl = location.href;
+      pageAlreadyProcessed = false; // NOUVEAU: Réinitialiser pour nouvelle page
+      interventionsCache.clear();
+      setupObserver();
+      
+      if (isNouvelleInterventionPage()) {
+        setTimeout(processNouvelleIntervention, 1000);
+        createDebugButton(); // Créer bouton debug sur nouvelle page
+      }
+    }
   }
+  
+  setInterval(checkUrlChange, 1000);
+
+  // ===== CHARGEMENT DONNEES =====
+  chrome.storage.local.get(['interventionsData'], (result) => {
+    if (result.interventionsData && result.interventionsData.length > 0) {
+      interventionsData = result.interventionsData;
+      log(`✅ ${interventionsData.length} interventions chargées`, 'success');
+      
+      if (isNouvelleInterventionPage()) {
+        setupObserver();
+        setTimeout(processNouvelleIntervention, 1000);
+        createDebugButton();
+      }
+    } else {
+      log('❌ Aucune donnée d\'intervention trouvée', 'error');
+    }
+  });
+
+  log('Extension initialisée');
 })();
